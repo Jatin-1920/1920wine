@@ -85,21 +85,7 @@ html {
   }
 
     
-@font-face {
-    font-family: j1;
-    src: url(j2.otf);
-}
 
-@font-face {
-    font-family: logo;
-    src: url(logo.ttf);
-}
-
-
-@font-face {
-    font-family:j2;
-    src:url(j3.ttf);
-}
 :root{
     --h1-font:clamp(1.75rem,2vw + 1rem,3rem);
     --bg-1:#fcfcfc;
@@ -141,5 +127,5 @@ body{
     color:blue;
     scrollbar-width:thin;
     scrollbar-color:#760026;
-    background:var(--bg-1);
+    background:blue;
 }
