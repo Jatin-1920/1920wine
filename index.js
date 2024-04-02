@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger)
 
 const locoScroll = new LocomotiveScroll({
-el: document.querySelector('[data-scroll-container]'),
+el: document.querySelector(".root"),
 smooth: true,
 smartphone: { smooth: true },
 tablet: { smooth: true },
