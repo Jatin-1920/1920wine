@@ -120,7 +120,7 @@ html {
     --m-text: clamp(1.35rem, 0.75vw + 0.75rem, 1.5rem);
   --ml-text: clamp(1.35rem, 2vw + 1rem, 1.75rem);
 --brg-heading: clamp(1.65rem, 1vw + 1rem, 2.5rem);
---xl-text: 30dvw;
+--xl-text: 40vw;
   
 }
 
