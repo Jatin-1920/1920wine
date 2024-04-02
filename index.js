@@ -22,7 +22,7 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)
 
 */
-const section = document.querySelector(".root");
+const section = document.querySelector(".lerp");
 let currentPosition = 0;
 let targetPosition = 0;
 
