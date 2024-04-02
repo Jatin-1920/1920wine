@@ -209,8 +209,8 @@ font-size:var(--p-text);
     
 }
 .thrlax{
-    max-height:27rem;
-    max-width:27rem;
+    max-height:25rem;
+    max-width:20rem;
     background:url(img/lax3.jpg);
     background-size:cover;
     positive:relative;
@@ -219,4 +219,16 @@ font-size:var(--p-text);
 .thrlax img {
     object-fit:cover;
     position: absolute;
+}
+.thrlax2{
+    top:50%;
+    right:-10%;
+    height:40%;
+    width:40%;
+}
+.thrlax1{
+    top:70%;
+    left:-10%;
+    height:55%;
+    width:50%;
 }
