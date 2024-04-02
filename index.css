@@ -197,5 +197,4 @@ font-size:var(--p-text);
     position:relative;
     z-index:2;
     max-width:21.875rem;
-    margin-inline:auto;
 }
