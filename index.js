@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger)
 
-/*const lenis = new Lenis({
+const lenis = new Lenis({
   duration: 1.5,
     direction: 'both',
     gestureDirection: 'both',
@@ -21,32 +21,8 @@ gsap.ticker.add((time)=>{
 
 gsap.ticker.lagSmoothing(0)
 
-*/
-let scrollY = 0;
 
-// change me to see what happens. The value must be less than 1.
-// too low and I get janky.
-// as I get closer to 1, the effect diminishes.
-const coefficient = 0.4;
 
-function animate() {
-
-  window.scrollTo({
-    top: scrollY,
-    left: 0,
-  });
-  
-  requestAnimationFrame(animate);
-  
-}
-animate();
-
-window.addEventListener('scroll', function() {
-  
-  event.preventDefault();
-  
-  scrollY += (window.pageYOffset - scrollY) * coefficient;
-});
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
