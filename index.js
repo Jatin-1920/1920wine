@@ -1,5 +1,13 @@
 gsap.registerPlugin(ScrollTrigger)
 
+const lenis = new Lenis({
+  lerp: 0.07
+});
+
+lenis.on('scroll', ScrollTrigger.update)
+gsap.ticker.add((time) => {
+  lenis.raf(time * 1000)
+})
 const prlxSection = document.querySelectorAll(".prlx-section")
 
 prlxSection.forEach(e=>{
