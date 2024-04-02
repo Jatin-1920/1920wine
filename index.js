@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger)
 
 
-    const lenis = new Lenis({
+ /*   const lenis = new Lenis({
   duration: 1.2,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     direction: 'vertical',
@@ -21,7 +21,41 @@ gsap.ticker.add((time)=>{
   lenis.raf(time * 1000)
 })
 
-gsap.ticker.lagSmoothing(0)
+gsap.ticker.lagSmoothing(0) */
+const locoScroll = new LocomotiveScroll({
+  el: document.querySelector(".root"),
+  smooth: true,
+
+  // for tablet smooth
+  tablet: { smooth: true },
+
+  // for mobile
+  smartphone: { smooth: true }
+});
+locoScroll.on("scroll", ScrollTrigger.update);
+
+ScrollTrigger.scrollerProxy(".root", {
+  scrollTop(value) {
+    return arguments.length
+      ? locoScroll.scrollTo(value, 0, 0)
+      : locoScroll.scroll.instance.scroll.y;
+  },
+  getBoundingClientRect() {
+    return {
+      top: 0,
+      left: 0,
+      width: window.innerWidth,
+      height: window.innerHeight
+    };
+  }
+
+  // follwoing line is not required to work pinning on touch screen
+
+  /* pinType: document.querySelector(".smooth-scroll").style.transform
+    ? "transform"
+    : "fixed"*/
+});
+
 const prlxSection = document.querySelectorAll(".prlx-section")
 
 prlxSection.forEach(e=>{
@@ -60,5 +94,7 @@ window.addEventListener("scroll",() => {
 })
 
 
+ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
+ScrollTrigger.refresh();
   
