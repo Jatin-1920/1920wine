@@ -192,7 +192,6 @@ font-size:var(--p-text);
     object-fit:cover;
 }
 .prlxp{
-    font-size:2rem;
     color:white;
     position:relative;
     z-index:2;
