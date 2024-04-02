@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger)
 
-const lenis = new Lenis({
+
     const lenis = new Lenis({
   duration: 1.2,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
@@ -12,7 +12,7 @@ const lenis = new Lenis({
   touchMultiplier: 2,
   infinite: false,
 })
-  })
+  
 lenis.on('scroll', ScrollTrigger.update)
 
 gsap.ticker.add((time)=>{
