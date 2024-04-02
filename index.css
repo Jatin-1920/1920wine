@@ -169,9 +169,6 @@ font-size:var(--p-text);
 }
 .service-content{
     max-width:50rem;
-    display:grid;
-    place-items:center;
-    margin-inline:auto;
 }
 .service-content p {
     margin-top:1rem;
