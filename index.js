@@ -22,7 +22,7 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)
 
 */
-/*const section = document.querySelector('#luxy');
+const section = document.querySelector('#luxy');
 let currentPosition = 0;
 let targetPosition = 0;
 
@@ -49,33 +49,7 @@ window.addEventListener('resize', () => {
   document.body.style.height = `${sectionHeight}px`;
 })
 
-setup();*/
-
-let scrollY = 0;
-
-// change me to see what happens. The value must be less than 1.
-// too low and I get janky.
-// as I get closer to 1, the effect diminishes.
-const coefficient = 0.4;
-
-function animate() {
-
-  window.scrollTo({
-    top: scrollY,
-    left: 0,
-  });
-  
-  requestAnimationFrame(animate);
-  
-}
-animate();
-
-window.addEventListener('scroll', function() {
-  
-  event.preventDefault();
-  
-  scrollY += (window.pageYOffset - scrollY) * coefficient;
-});
+setup();
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
