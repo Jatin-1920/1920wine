@@ -25,7 +25,8 @@ gsap.ticker.lagSmoothing(0) */
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".root"),
   smooth: true,
-
+wheelMultiplier:1.2,
+ lerp:0.05
   // for tablet smooth
   tablet: { smooth: true },
 
