@@ -2,10 +2,10 @@ gsap.registerPlugin(ScrollTrigger)
 
 const lenis = new Lenis({
   duration: 2.5,
-    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    easing: (t) => Math.min(3, 6 - Math.pow(5, -15 * t)),
     direction: 'both',
     gestureDirection: 'both',
-    lerp: 0.75,
+    lerp: 1,
     smooth: true,
     smoothTouch: false,
     touchMultiplier: 9,
