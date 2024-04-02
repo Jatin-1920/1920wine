@@ -195,5 +195,5 @@ font-size:var(--p-text);
     color:white;
     position:relative;
     z-index:2;
-    width:70%;
+    max-width:21.875rem;
 }
