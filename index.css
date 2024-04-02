@@ -172,4 +172,6 @@ body{
 .prlxp{
     font-size:2rem;
     color:white;
+    position:relative;
+    z-index:2;
 }
