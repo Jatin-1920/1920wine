@@ -128,7 +128,7 @@ body{
     text-rendering: optimizeSpeed;
     line-height:1.6;
     overflow-x: clip;
-    min-height:100vh;
+    min-height:100%;
     width:100%;
     font-family:j2;
     color:black;
