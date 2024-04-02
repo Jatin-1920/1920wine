@@ -22,7 +22,7 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)
 
 */
-const section = document.querySelector('.root');
+const section = document.querySelector('#luxy');
 let currentPosition = 0;
 let targetPosition = 0;
 
@@ -31,7 +31,7 @@ function lerp(min, max, ease) {
 }
 
 function smoothScroll() {
-  currentPosition = lerp(currentPosition, window.scrollY, 0.75);
+  currentPosition = lerp(currentPosition, window.scrollY, 0.9);
   currentPosition = parseFloat(currentPosition.toFixed(2));
   targetPosition = window.scrollY;
   section.style.transform = `translate3d(0, ${-currentPosition}px, 0)`;
