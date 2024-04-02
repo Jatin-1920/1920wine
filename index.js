@@ -1,14 +1,14 @@
 gsap.registerPlugin(ScrollTrigger)
 
-/*const lenis = new Lenis({
-  duration: 2,
+const lenis = new Lenis({
+  duration: 1.2,
     direction: 'both',
     gestureDirection: 'both',
-    lerp: 1,
-    smooth: true,
+    lerp: 0.05,
+    smooth: 2,
     smoothTouch: false,
-    touchMultiplier:5,
-    wheelMultiplier: 6,
+    touchMultiplier:3,
+    wheelMultiplier: 2,
     infinite: false,
     autoResize: true,
 });
@@ -20,11 +20,8 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0)
-*/
-luxy.init({
-  wrapper: '#luxy',
-        wrapperSpeed: 0.065,
-})
+
+
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
