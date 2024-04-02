@@ -7,8 +7,8 @@ const lenis = new Lenis({
     lerp: 0.75,
     smooth: true,
     smoothTouch: false,
-    touchMultiplier:3,
-    wheelMultiplier: 2,
+    touchMultiplier:1,
+    wheelMultiplier: 1,
     infinite: false,
     autoResize: true,
 });
