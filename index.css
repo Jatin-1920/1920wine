@@ -141,8 +141,9 @@ body{
 .header-content{
     height:100%;
     padding:2rem;
-    display: grid;
-    place-items:center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
     background:white;
-    clip-path: ellipse(60% 30% at 50% 97%);
+    clip-path: ellipse(60% 20% at 50% 97%);
 }
