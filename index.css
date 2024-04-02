@@ -155,7 +155,7 @@ body{
     margin-inline:auto;
 }
 .prlx-section{
-    height:100dvh;
+    height:80dvh;
     width:100%;
     overflow:clip; 
     position:relative;
