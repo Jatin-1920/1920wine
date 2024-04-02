@@ -20,8 +20,8 @@ prlxSection.forEach(e=>{
   const prlxTl = gsap.timeline({
     scrollTrigger: {
         trigger:e,
-        start: "clamp(top bottom)",
-        end: "clamp(bottom top)",
+        start: "top bottom",
+        end: "bottom top",
         scrub: true,
       
     }
