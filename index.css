@@ -189,6 +189,7 @@ font-size:var(--p-text);
 }
 .marquee h1{
     padding-inline:3rem
+    font-size:var(--xl-text);
 }
 .service-container{
     min-height:100dvh;
