@@ -23,7 +23,7 @@ gsap.ticker.add((time)=>{
 
 gsap.ticker.lagSmoothing(0) */
 const locoScroll = new LocomotiveScroll({
-  el: document.querySelector(".root"),
+  el: document.querySelector("#lerp"),
   smooth: true,
  lerp:0.05
   // for tablet smooth
@@ -34,7 +34,7 @@ const locoScroll = new LocomotiveScroll({
 });
 locoScroll.on("scroll", ScrollTrigger.update);
 
-ScrollTrigger.scrollerProxy(".root", {
+ScrollTrigger.scrollerProxy("#lerp", {
   scrollTop(value) {
     return arguments.length
       ? locoScroll.scrollTo(value, 0, 0)
