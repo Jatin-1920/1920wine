@@ -22,34 +22,31 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)
 
 */
-const section = document.querySelector(".lerp");
-let currentPosition = 0;
-let targetPosition = 0;
+let scrollY = 0;
 
-function lerp(min, max, ease) {
-  return min * (1 - ease) + max * ease;
+// change me to see what happens. The value must be less than 1.
+// too low and I get janky.
+// as I get closer to 1, the effect diminishes.
+const coefficient = 0.4;
+
+function animate() {
+
+  window.scrollTo({
+    top: scrollY,
+    left: 0,
+  });
+  
+  requestAnimationFrame(animate);
+  
 }
+animate();
 
-function smoothScroll() {
-  currentPosition = lerp(currentPosition, window.scrollY, 0.075);
-  currentPosition = parseFloat(currentPosition.toFixed(2));
-  targetPosition = window.scrollY;
-  section.style.transform = `translate3d(0, ${-currentPosition}px, 0)`;
-  window.requestAnimationFrame(smoothScroll);
-}
-
-function setup() {
-  const sectionHeight = section.scrollHeight;
-  document.body.style.height = `${sectionHeight}px`;
-  smoothScroll();
-}
-
-window.addEventListener('resize', () => {
-  const sectionHeight = section.scrollHeight;
-  document.body.style.height = `${sectionHeight}px`;
-})
-
-setup();
+window.addEventListener('scroll', function() {
+  
+  event.preventDefault();
+  
+  scrollY += (window.pageYOffset - scrollY) * coefficient;
+});
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
