@@ -21,8 +21,7 @@ gsap.ticker.add((time)=>{
 
 gsap.ticker.lagSmoothing(0)
 
-const body = document.body;
-const
+
 const prlxSection = document.querySelectorAll(".prlx-section")
 
 prlxSection.forEach(e=>{
