@@ -153,7 +153,6 @@ font-size:var(--p-text);
     height:100dvh;
     width:100%;
     overflow:clip;
-    padding-bottom:3rem;
     background:url(img/foreground.jpg);
     background-size:cover;
     background-repeat:no-repeat;
