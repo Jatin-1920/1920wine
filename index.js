@@ -56,6 +56,6 @@ window.addEventListener("scroll",() => {
   }
   gsap.to(tween,{
     timeScale:isScrolling ? 1 : -1
-  }
+  })
   currentScroll = window.pageYOffset
 })
