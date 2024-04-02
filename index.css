@@ -88,7 +88,7 @@ html {
 
 :root{
     --h1-font:clamp(1.75rem,2vw + 1rem,3rem);
-    --bg-1:#fcfcfc;
+    --bg-1:#E8EAE6;
     --bg-2: #ffc436;
     --bg-3:#edb74d;
     --bg-4:#151515;
@@ -127,5 +127,14 @@ body{
     color:blue;
     scrollbar-width:thin;
     scrollbar-color:#760026;
-    background:blue;
+    background:var(--bg-1);
+}
+.header{
+    height:100dvh;
+    width:100%;
+    overflow:clip;
+    background:url(img/foreground.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
