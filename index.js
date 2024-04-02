@@ -5,7 +5,7 @@ el: document.querySelector(".root"),
 smooth: true,
 smartphone: { smooth: true },
 tablet: { smooth: true },
-lerp: 1, // Linear Interpolation, 0 > 1 // Try 0.01
+lerp: 0.01, // Linear Interpolation, 0 > 1 // Try 0.01
 multiplier: 1.2, // Effect Multiplier
 });
 
