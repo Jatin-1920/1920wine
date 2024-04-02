@@ -22,7 +22,7 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0) */
-const locoScroll = new LocomotiveScroll({
+
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".root"),
   smooth: true
