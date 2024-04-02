@@ -170,7 +170,7 @@ font-size:var(--p-text);
     align-items:center;
 }
 .marquee h1{
-    padding-inline:3rem
+    padding-inline:3rem;
     font-size:var(--xl-text);
 }
 .service-container{
