@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger)
 
 const lenis = new Lenis({
-  duration: 1.2,
+  duration: 1.75,
     direction: 'both',
     gestureDirection: 'both',
     lerp: 1,
