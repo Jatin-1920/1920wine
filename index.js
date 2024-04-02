@@ -11,7 +11,7 @@ multiplier: 1.2, // Effect Multiplier
 
 locoScroll.on("scroll", ScrollTrigger.update);
 
-ScrollTrigger.scrollerProxy(".smooth-scroll", {
+ScrollTrigger.scrollerProxy(".gsapPin", {
   scrollTop(value) {
     return arguments.length
       ? locoScroll.scrollTo(value, 0, 0)
@@ -25,6 +25,7 @@ ScrollTrigger.scrollerProxy(".smooth-scroll", {
       height: window.innerHeight
     };
   }
+})
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
