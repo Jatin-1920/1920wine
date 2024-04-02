@@ -163,11 +163,13 @@ font-size:var(--p-text);
     height:100%;
     width:fit-content;
     display:flex;
-    align-items:center;   
+    align-items:center;  
+    justify-content: center;
 }
 .marquee{
     display:flex;
     align-items:center;
+    justify-content: center;
 }
 .marquee h1{
     margin-inline:2rem;
