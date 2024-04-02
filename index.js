@@ -1,28 +1,30 @@
 gsap.registerPlugin(ScrollTrigger)
 
-const lenis = new Lenis({
-  duration: 1.5,
-    direction: 'both',
-    gestureDirection: 'both',
-    lerp: 0.075,
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier:2,
-    wheelMultiplier: 1,
-    infinite: false,
-    autoResize: true,
+const locoScroll = new LocomotiveScroll({
+el: document.querySelector(‘[data-scroll-container]’),
+smooth: true,
+smartphone: { smooth: true },
+tablet: { smooth: true },
+lerp: 0.03, // Linear Interpolation, 0 > 1 // Try 0.01
+multiplier: 1.2, // Effect Multiplier
 });
 
-lenis.on('scroll', ScrollTrigger.update)
+locoScroll.on("scroll", ScrollTrigger.update);
 
-gsap.ticker.add((time)=>{
-  lenis.raf(time * 1000)
-})
-
-gsap.ticker.lagSmoothing(0)
-
-
-
+ScrollTrigger.scrollerProxy(".smooth-scroll", {
+  scrollTop(value) {
+    return arguments.length
+      ? locoScroll.scrollTo(value, 0, 0)
+      : locoScroll.scroll.instance.scroll.y;
+  },
+  getBoundingClientRect() {
+    return {
+      top: 0,
+      left: 0,
+      width: window.innerWidth,
+      height: window.innerHeight
+    };
+  }
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
@@ -59,3 +61,9 @@ window.addEventListener("scroll",() => {
   })
   currentScroll = window.pageYOffset
 })
+
+
+
+  ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+
+ScrollTrigger.refresh();
