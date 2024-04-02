@@ -134,7 +134,7 @@ body{
 }
 h1{
     font-family:thunder;
-    font-size:var(--h2-text);
+    font-size:var(--h1-text);
 }
 .header{
     height:100dvh;
