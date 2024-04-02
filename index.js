@@ -45,9 +45,9 @@ prlxSection.forEach(e=>{
   })
 })
 
-const currentScroll = 0
-const isScrolling  = true
-const tween = gsap.to(".marquee",{xPercent:-100,ease:"linear",repeat:-1,duration:13}).totalProgress(0.5)
+let currentScroll = 0
+let isScrolling  = true
+let tween = gsap.to(".marquee",{xPercent:-100,ease:"linear",repeat:-1,duration:13}).totalProgress(0.5)
 window.addEventListener("scroll",()=>{
   
   if(window.pageYOffset>currentScroll){
