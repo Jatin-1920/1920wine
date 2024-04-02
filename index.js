@@ -1,7 +1,8 @@
 gsap.registerPlugin(ScrollTrigger)
 
 const lenis = new Lenis({
-  lerp: 0.07
+  lerp: 0.15,
+  smooth: true,
 });
 
 lenis.on('scroll', ScrollTrigger.update)
