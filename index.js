@@ -51,9 +51,7 @@ ScrollTrigger.scrollerProxy(".root", {
 
   // follwoing line is not required to work pinning on touch screen
 
-   pinType: document.querySelector(".root").style.transform
-    ? "transform"
-    : "fixed"
+   ,pinType: document.querySelector(".root").style.transform ? "transform": "fixed"
 });
 
 const prlxSection = document.querySelectorAll(".prlx-section")
