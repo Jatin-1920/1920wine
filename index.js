@@ -37,7 +37,7 @@ window.addEventListener("scroll",()=>{
   targetY = window.scrollY
 })
 function smoothScroll() {
-  currentY = lerp(currentY,targetY,0.09)
+  currentY = lerp(currentY,targetY,0.5)
   main.style.transform = `translate3d(0,${-currentY}px,0)`
   requestAnimationFrame(smoothScroll)
 }
