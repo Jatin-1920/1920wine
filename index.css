@@ -132,6 +132,10 @@ body{
     scrollbar-color:#760026;
     background:var(--bg-1);
 }
+h1{
+    font-family:thunder;
+    font-size:var(--h2-text);
+}
 .header{
     height:100dvh;
     width:100%;
