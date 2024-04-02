@@ -25,7 +25,6 @@ gsap.ticker.lagSmoothing(0) */
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".root"),
   smooth: true,
-wheelMultiplier:1.2,
  lerp:0.05
   // for tablet smooth
   tablet: { smooth: true },
@@ -52,9 +51,9 @@ ScrollTrigger.scrollerProxy(".root", {
 
   // follwoing line is not required to work pinning on touch screen
 
-  /* pinType: document.querySelector(".smooth-scroll").style.transform
+   pinType: document.querySelector(".root").style.transform
     ? "transform"
-    : "fixed"*/
+    : "fixed"
 });
 
 const prlxSection = document.querySelectorAll(".prlx-section")
