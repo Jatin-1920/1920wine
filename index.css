@@ -142,6 +142,7 @@ h1{
 }
 p{
 font-size:var(--p-text);
+    text-wrap:balance;
 }
 .header{
     height:100dvh;
