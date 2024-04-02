@@ -50,12 +50,13 @@ let isScrolling  = true
 let tween = gsap.to(".marquee",{xPercent:-100,ease:"linear",repeat:-1,duration:13}).totalProgress(0.5)
 window.addEventListener("scroll",()=>{
   
-  if(window.pageYOffset>currentScroll){
+  if (window.pageYOffset > currentScroll) {
     isScrolling = true
   } else{
     isScrolling = false
   }
   gsap.to(tween,{
     timeScale:isScrolling ? 1 : -1
-  })
+  }
+          currentScroll = window.pageYOffset
 })
