@@ -135,9 +135,8 @@ body{
     scrollbar-width:thin;
     scrollbar-color:#760026;
     background:var(--bg-1);
-    position: absolute;
+    position: sticky;
     top:0;
-    left:0;
 }
 
 
