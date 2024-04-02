@@ -31,7 +31,7 @@ function lerp(min, max, ease) {
 }
 
 function smoothScroll() {
-  currentPosition = lerp(currentPosition, window.scrollY, 0.1);
+  currentPosition = lerp(currentPosition, window.scrollY, 0.075);
   currentPosition = parseFloat(currentPosition.toFixed(2));
   targetPosition = window.scrollY;
   section.style.transform = `translate3d(0, ${-currentPosition}px, 0)`;
