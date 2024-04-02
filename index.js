@@ -21,7 +21,28 @@ gsap.ticker.add((time)=>{
 
 gsap.ticker.lagSmoothing(0)
 
+let targetY = 0
+let currentY = 0
+const main = document.querySelector(".root")
 
+function setup() {
+  const scrollh = main.offsetHeight
+  document.body.style.height = `${scrollh}px`
+}
+
+function lerp (start, end, t) {
+  return start * (1 - t) + end * t;
+}
+window.addEventListener("scroll",()=>{
+  targetY = window.scrollY
+})
+function smoothScroll() {
+  currentY = lerp(currentY,targetY,0.075)
+  main.style.transform = `translate3d(0,${-currentY}px,0)`
+  requestAnimationFrame(smoothScroll)
+}
+setup()
+smoothScroll()
 const prlxSection = document.querySelectorAll(".prlx-section")
 
 prlxSection.forEach(e=>{
