@@ -5,7 +5,8 @@ el: document.querySelector(".root"),
 smooth: true,
 smartphone: { smooth: true },
 tablet: { smooth: true },
-
+lerp:0.05,
+wheelMultiplier:1.2
 });
 
 locoScroll.on("scroll", ScrollTrigger.update);
