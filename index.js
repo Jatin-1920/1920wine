@@ -1,14 +1,14 @@
 gsap.registerPlugin(ScrollTrigger)
 
 const lenis = new Lenis({
-  duration: 1.2,
+  duration: 1.5,
     direction: 'both',
     gestureDirection: 'both',
-    lerp: 10 ,
+    lerp: 1,
     smooth: true,
     smoothTouch: false,
-    touchMultiplier:2,
-    wheelMultiplier: 2,
+    touchMultiplier:5,
+    wheelMultiplier: 6,
     infinite: false,
     autoResize: true,
 });
