@@ -159,10 +159,17 @@ body{
     width:100%;
     overflow:clip; 
     position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .prlx-item{
     position: absolute;
     height:150%;
     width:100%;
     object-fit:cover;
+}
+.prlxp{
+    font-size:2rem;
+    color:white;
 }
