@@ -5,8 +5,7 @@ el: document.querySelector(".root"),
 smooth: true,
 smartphone: { smooth: true },
 tablet: { smooth: true },
-lerp: 0.05, // Linear Interpolation, 0 > 1 // Try 0.01
-multiplier: 1.2, // Effect Multiplier
+
 });
 
 locoScroll.on("scroll", ScrollTrigger.update);
