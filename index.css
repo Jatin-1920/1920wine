@@ -168,7 +168,7 @@ font-size:var(--p-text);
     padding-inline: 1rem;
 }
 .service-content{
-    width:70%;
+    max-width:50rem;
     display:grid;
     place-items:center;
     margin-inline:auto;
