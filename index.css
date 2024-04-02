@@ -184,7 +184,7 @@ font-size:var(--p-text);
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-inline:1rem;
+    padding-inline:2rem;
 }
 .prlx-item{
     position: absolute;
