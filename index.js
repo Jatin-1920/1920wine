@@ -4,7 +4,7 @@ const lenis = new Lenis({
   duration: 1.2,
     direction: 'both',
     gestureDirection: 'both',
-    lerp: 0.01,
+    lerp: 0.05,
     smooth: true,
     smoothTouch: false,
     touchMultiplier:2,
