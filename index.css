@@ -236,7 +236,7 @@ body{
   
 }
 
-.bottomLink:hover .bottomLink>i{
+.bottomLink:hover .fa{
   color:white;
   background:white;
 }
