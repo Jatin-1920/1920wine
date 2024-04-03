@@ -217,8 +217,9 @@ body{
 }
 
 .nav-link{
-  height:5rem;
+  height:3.25rem;
   display:flex;
+  width:100%;
   align-items:center;
   font-size:var(--p1-text);
   transition:all .35s ease-in-out;
