@@ -222,6 +222,11 @@ body{
   display:flex;
   align-items:center;
   font-size:var(--p1-text);
+  transition:all .35s ease-in-out;
+}
+.nav-link:hover{
+  background: black;
+  color:white;
 }
 h1{
     font-family:thunder;
