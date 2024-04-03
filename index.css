@@ -258,6 +258,9 @@ font-size:var(--p-text);
   right:-30%;
     top:30%;
   }
+.thrlax-content{
+  padding:3rem 2rem;
+}
 @media (max-width:50rem){
   .marquee h1{
     font-size:25vw;
