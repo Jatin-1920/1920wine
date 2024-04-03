@@ -167,7 +167,7 @@ body{
   z-index:101;
   width:100%;
   padding:1.5rem 2rem;
-  font-size:var(--p1-text);
+  font-size:var(--l-text);
   align-items:center;
   font-family:thunder;
   justify-content:space-between;
