@@ -243,6 +243,8 @@ body{
   width:100%;
   align-items:center;
   justify-content:center;
+  tarnsform:translateY(-50px);
+  opacity:0;
   font-size:var(--p1-text);
   transition:all .35s ease-in-out;
 }
