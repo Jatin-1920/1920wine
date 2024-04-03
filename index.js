@@ -62,7 +62,10 @@ const thrlax = gsap.timeline({
        }).to(".thrlax2",{
           y:-250,
           ease:"none"
-       },0)
+       },0).to(".thrlax",{
+          y:-50,
+          ease:"none"
+       })
 
 let currentScroll = 0
 let isScrolling  = true
