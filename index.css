@@ -164,8 +164,10 @@ body{
   position: fixed;
   top:0;
   display:flex;
+  width:100%;
   padding:1.5rem 2rem;
   align-items:center;
+  font-family:thunder;
   justify-content:space-between;
 }
 .nav{
