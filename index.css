@@ -217,7 +217,6 @@ body{
 }
 
 .nav-link{
-  padding-inline:.15rem;
   height:5rem;
   display:flex;
   align-items:center;
