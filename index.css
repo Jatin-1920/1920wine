@@ -202,8 +202,17 @@ body{
   width:1px;
   background:black;
 }
+
+.bottomNavLine{
+  position: absolute;
+  top:0;
+  height:1px;
+  width:100%;
+  background:black;
+}
 .bottom-nav{
   height:15dvh;
+  position:relative;
 }
 
 .nav-link{
