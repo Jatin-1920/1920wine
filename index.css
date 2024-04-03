@@ -179,7 +179,7 @@ body{
   width:100dvw;
   z-index:99;
   background:indianred;
-  opacity:0;
+  overflow:clip;
 }
 .top-nav{
   display:flex;
