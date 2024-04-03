@@ -234,7 +234,7 @@ font-size:var(--p-text);
 
 .thrlax{
   height:50dvh;
-  width:50dvw;
+  width:50dvh;
   position:relative;
   background:url(img/lax3.jpg);
   background-size:cover;
