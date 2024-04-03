@@ -161,7 +161,7 @@ body{
   
 }
 .topHeader{
-  position: sticky;
+  position: fixed;
   top:0;
   display:flex;
   padding:1.5rem 2rem;
@@ -175,6 +175,7 @@ body{
   width:100dvw;
   z-index:99;
   background:indianred;
+  opacity:0;
 }
 .top-nav{
   display:flex;
