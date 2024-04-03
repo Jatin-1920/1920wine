@@ -49,7 +49,7 @@ prlxSection.forEach(e=>{
 
 const thrlax = gsap.timeline({
     scrollTrigger: {
-        trigger:".thrlax",
+        trigger:".trigger",
         start: "top bottom",
         end: "bottom top",
         scrub: true,
@@ -62,10 +62,7 @@ const thrlax = gsap.timeline({
        }).to(".thrlax2",{
           y:-250,
           ease:"none"
-       },0).to(".thrlax",{
-          y:-50,
-          ease:"none"
-       })
+       },0)
 
 let currentScroll = 0
 let isScrolling  = true
