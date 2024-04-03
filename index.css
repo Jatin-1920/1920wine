@@ -350,7 +350,13 @@ font-size:var(--p-text);
   padding:0rem 1rem;
 }
 @media (max-width:50rem){
+
+.bottomNavLine{
+  height:1px;
+}
+  
   .marquee h1{
     font-size:25vw;
   }
+
 }
