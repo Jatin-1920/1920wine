@@ -233,8 +233,8 @@ font-size:var(--p-text);
 }
 
 .thrlax{
-  height:35dvh;
-  width:35dvh;
+  height:50dvh;
+  width:50dvh;
   position:relative;
   background:url(img/lax3.jpg);
   background-size:cover;
@@ -245,16 +245,16 @@ font-size:var(--p-text);
   position: absolute;
 }
 .thrlax1{
-  width:50%;
-  height:55%;
-  left:-10%;
+  width:60%;
+  height:70%;
+  left:-20%;
   top:70%;
 }
 
   .thrlax2{
-  width:40%;
-  height:40%;
-  right:-10%;
+  width:50%;
+  height:50%;
+  right:-20%;
     top:50%;
   }
 
