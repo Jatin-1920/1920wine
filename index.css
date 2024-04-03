@@ -243,6 +243,7 @@ font-size:var(--p-text);
 }
 .thrlax img{
   position: absolute;
+  object-fit:cover;
 }
 .thrlax1{
   width:60%;
