@@ -217,8 +217,8 @@ body{
 }
 
 .navLink{
-  paading:1rem .15rem;
-  font-size:var(--p1-text);
+  paading:3rem .15rem;
+  font-size:var(--l-text);
 }
 h1{
     font-family:thunder;
