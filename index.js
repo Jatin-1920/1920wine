@@ -47,6 +47,22 @@ prlxSection.forEach(e=>{
 })
 
 
+const thrlax = gsap.timeline({
+    scrollTrigger: {
+        trigger:".trigger",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      
+     }
+       thrlax.to(".thrlax1",{
+          y:-155,
+          ease:"none"
+       }).to(".thrlax2",{
+          y:-250,
+          ease:"none"
+       },0)
+
 let currentScroll = 0
 let isScrolling  = true
 let tween = gsap.to(".marquee",{xPercent:-100,ease:"linear",repeat:-1,duration:13}).totalProgress(0.5)
