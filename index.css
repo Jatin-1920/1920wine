@@ -215,9 +215,11 @@ body{
   position:relative;
   display:flex;
 }
-.bottomLink{
+
+.bottom-nav>*{
   flex:1;
 }
+
 .bottomHLine{
   position: absolute;
   left:0;
