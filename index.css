@@ -189,9 +189,26 @@ body{
   flex:1;
 }
 
-
+.topNv{
+  position:relative;
+  justify-content:center;
+  display:flex;
+  flex-direction: column;
+}
+.topNavLine{
+  position: absolute;
+  left:0;
+  height:100%;
+  width:1px;
+  background:black;
+}
 .bottom-nav{
   height:15dvh;
+}
+
+.nav-link{
+  paading:1rem .25rem;
+  font-size:var(--p1-text);
 }
 h1{
     font-family:thunder;
