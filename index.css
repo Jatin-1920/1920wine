@@ -183,7 +183,7 @@ body{
 }
 .top-nav{
   display:flex;
-  height:85dvh;
+  height:100dvh;
 }
 .top-nav>*{
   flex:1;
@@ -212,6 +212,9 @@ body{
 }
 .bottom-nav{
   height:15dvh;
+  position: absolute;
+  bottom:0;
+  left:0;
   display:grid;
   grid-template-columns:repeat(6,1fr);
 }
@@ -219,16 +222,7 @@ body{
 .bottom-nav>*{
   flex:1;
 }
-.bottomLink{
-  position:relative;
-}
-.bottomHLine{
-  position: absolute;
-  right:0;
-  width:1px;
-  background:black;
-  height:100%;
-}
+
 .border-left{
   border-left:1px solid black;
 }
