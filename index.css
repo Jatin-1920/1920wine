@@ -192,7 +192,6 @@ body{
 .topNv{
   position:relative;
   justify-content:center;
-  align-items:center;
   display:flex;
   flex-direction: column;
 }
@@ -221,6 +220,7 @@ body{
   display:flex;
   width:100%;
   align-items:center;
+  justify-content:center;
   font-size:var(--p1-text);
   transition:all .35s ease-in-out;
 }
