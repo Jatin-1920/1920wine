@@ -216,14 +216,25 @@ body{
   bottom:0;
   left:0;
   width:100%;
-  display:grid;
-  grid-template-columns:repeat(6,1fr);
+  display:flex;
 }
 
 .bottom-nav>*{
   flex:1;
 }
-
+.bottomLink{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.bottomLink i {
+  font-size:2rem;
+  color:black;
+}
+.bottomLink:hover,.bottomLink:hover .bottomLink i{
+  background:black;
+  color:white;
+}
 .border-left{
   border-left:1px solid black;
 }
