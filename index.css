@@ -216,9 +216,9 @@ body{
   position:relative;
 }
 
-.navLink{
-  paading:3rem .15rem;
-  font-size:var(--l-text);
+.nav-link{
+  paading:2.25rem .15rem;
+  font-size:var(--p1-text);
 }
 h1{
     font-family:thunder;
