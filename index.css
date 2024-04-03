@@ -236,8 +236,9 @@ body{
   
 }
 
-.bottomLink:hover .bottomLink i{
+.bottomLink:hover .bottomLink>i{
   color:white;
+  background:white;
 }
 
 .border-left{
