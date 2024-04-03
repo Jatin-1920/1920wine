@@ -7,7 +7,7 @@ const navToggle = document.querySelector(".menuToggle")
 const navTl = gsap.timeline({paused:true})
 
 navTl.to(".nav",{height:"100dvh",ease:"power2.inOut",
-                 duration:.85}).from(".topNavLine",{scale:0,transformOrigin:"0% 0%" ,duration:1,ease:"power2.inOut"},0.2)
+                 duration:.85}).from(".topNavLine",{scaleY:0,transformOrigin:"0% 0%" ,duration:1,ease:"power2.inOut"},0.2)
 let state = false
 
 function switchMenu() {
