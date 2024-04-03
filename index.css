@@ -259,7 +259,8 @@ font-size:var(--p-text);
     top:30%;
   }
 .thrlax-content{
-  padding-block:3rem;
+  min-height:50dvh;
+  padding:0rem 1rem;
 }
 @media (max-width:50rem){
   .marquee h1{
