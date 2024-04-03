@@ -212,7 +212,8 @@ body{
 }
 .bottom-nav{
   height:15dvh;
-  display:flex;
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
 }
 
 .bottom-nav>*{
