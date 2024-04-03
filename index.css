@@ -208,7 +208,7 @@ font-size:var(--p-text);
 .service-content p {
     margin-top:1rem;
 }
-.prlx-section{
+.prlx-section,.thrlax-container{
     height:100dvh;
     width:100%;
     overflow:clip; 
