@@ -160,10 +160,24 @@ body{
     background:var(--bg-1);
   
 }
-
-
-
-
+.nav{
+  position:fixed;
+  inset:0;
+  height:100dvh;
+  width:100dvw;
+  z-index:99;
+  background:indianred;
+}
+.top-nav{
+  display:flex;
+  height:85dvh;
+}
+.top-nav>*{
+  flex:1;
+}
+.bottom-nav{
+  height:15dvh;
+}
 h1{
     font-family:thunder;
     font-size:var(--h1-text);
