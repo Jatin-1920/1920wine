@@ -217,8 +217,8 @@ body{
 }
 
 .nav-link{
-  paading-block:3rem;
   padding-inline:.15rem;
+  height:5rem;
   display:flex;
   align-items:center;
   font-size:var(--p1-text);
