@@ -232,3 +232,29 @@ font-size:var(--p-text);
     
 }
 
+.thrlax{
+  max-height:25rem;
+  max-width:25rem;
+  position:relative;
+  background:url(img/lax3.jpg);
+  background-size:cover;
+  background-position: center center;
+  
+}
+.thrlax img{
+  position: absolute;
+}
+.thrlax1{
+  width:50%;
+  height:55%;
+  left:-10%;
+  top:70%;
+}
+
+  .thrlax2{
+  width:40%;
+  height:40%;
+  right:-10%;
+    top:50%;
+  }
+
