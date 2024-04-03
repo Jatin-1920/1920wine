@@ -213,6 +213,20 @@ body{
 .bottom-nav{
   height:15dvh;
   position:relative;
+  display:flex;
+}
+.bottomLink{
+  flex:1;
+}
+.bottomHLine{
+  position: absolute;
+  left:0;
+  width:1px;
+  background:black;
+  height:100%;
+}
+.border-left{
+  border-left:1px solid black;
 }
 
 .nav-link{
