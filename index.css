@@ -219,6 +219,8 @@ body{
 .nav-link{
   paading-block:3rem;
   padding-inline:.15rem;
+  display:flex;
+  align-items:center;
   font-size:var(--p1-text);
 }
 h1{
