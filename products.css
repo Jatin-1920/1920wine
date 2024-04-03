@@ -4,11 +4,13 @@
 .productHeader{
   min-height:50dvh;
   width:100%;
+  display:flex;
 }
 .productHeader>*{
   flex:1;
 }
 .prdHead1{
+  
   background:white;
   paading:2rem;
   border-top-right-radius:1.5rem;
