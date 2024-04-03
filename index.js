@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger)
 
 
- /*   const lenis = new Lenis({
+   const lenis = new Lenis({
   duration: 1.2,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     direction: 'vertical',
@@ -21,26 +21,9 @@ gsap.ticker.add((time)=>{
   lenis.raf(time * 1000)
 })
 
-gsap.ticker.lagSmoothing(0) */
+gsap.ticker.lagSmoothing(0) 
 
-const locoScroll = new LocomotiveScroll({
-  el: document.querySelector(".root"),
-  smooth: true,
- lerp:0.05,
- wheelMultiplier:1
-});
-// each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
-locoScroll.on("scroll", ScrollTrigger.update);
 
-// tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
-ScrollTrigger.scrollerProxy(".root", {
-  scrollTop(value) {
-    return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-  }, // we don't have to define a scrollLeft because we're only scrolling vertically.
-  getBoundingClientRect() {
-    return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
-  }
-});
 
 const prlxSection = document.querySelectorAll(".prlx-section")
 
@@ -80,7 +63,4 @@ window.addEventListener("scroll",() => {
 })
 
 
-ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
-ScrollTrigger.refresh();
-  
