@@ -212,14 +212,15 @@ body{
 }
 .bottom-nav{
   height:15dvh;
-  position:relative;
   display:flex;
 }
 
 .bottom-nav>*{
   flex:1;
 }
-
+.bottomLink{
+  position:relative;
+}
 .bottomHLine{
   position: absolute;
   left:0;
