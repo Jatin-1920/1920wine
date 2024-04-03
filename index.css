@@ -160,10 +160,18 @@ body{
     background:var(--bg-1);
   
 }
+.topHeader{
+  position: sticky;
+  top:0;
+  display:flex;
+  padding:1.5rem 2rem;
+  align-items:center;
+  justify-content:space-between;
+}
 .nav{
   position:fixed;
   inset:0;
-  height:100dvh;
+  height:0;
   width:100dvw;
   z-index:99;
   background:indianred;
@@ -175,6 +183,8 @@ body{
 .top-nav>*{
   flex:1;
 }
+
+
 .bottom-nav{
   height:15dvh;
 }
