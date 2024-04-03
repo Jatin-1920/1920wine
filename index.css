@@ -192,6 +192,7 @@ body{
 .topNv{
   position:relative;
   justify-content:center;
+  align-items:center;
   display:flex;
   flex-direction: column;
 }
@@ -215,8 +216,8 @@ body{
   position:relative;
 }
 
-.nav-link{
-  paading:1rem .25rem;
+.navLink{
+  paading:1rem .15rem;
   font-size:var(--p1-text);
 }
 h1{
