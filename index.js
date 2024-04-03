@@ -55,6 +55,7 @@ const thrlax = gsap.timeline({
         scrub: true,
       
      }
+})
        thrlax.to(".thrlax1",{
           y:-155,
           ease:"none"
