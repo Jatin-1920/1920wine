@@ -259,7 +259,7 @@ font-size:var(--p-text);
     top:30%;
   }
 .thrlax-content{
-  padding:3rem 2rem;
+  padding-block:3rem;
 }
 @media (max-width:50rem){
   .marquee h1{
