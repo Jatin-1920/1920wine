@@ -17,8 +17,8 @@
   
   background:white;
   padding:2rem;
-  border-top-right-radius:2.5rem;
-  border-bottom-right-radius:2.5rem;
+  border-top-right-radius:3rem;
+  border-bottom-right-radius:3rem;
   display:flex;
   justify-content:center;
 }
