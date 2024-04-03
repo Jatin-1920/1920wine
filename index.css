@@ -231,10 +231,15 @@ body{
   font-size:2rem;
   color:black;
 }
-.bottomLink:hover,.bottomLink:hover .bottomLink i{
+.bottomLink:hover{
   background:black;
+  
+}
+
+.bottomLink:hover .bottomLink i{
   color:white;
 }
+
 .border-left{
   border-left:1px solid black;
 }
