@@ -81,7 +81,7 @@ const html = products.map(item=>
   <div id=${item.id}>
   <img src=${item.image}/>
   <p class="price">$ ${item.price}</p>
-  <p class="prodDesc">${item.desc}</p>
+  <button type="button">Add Me</button>
   </div>
   `
 ).join('')
