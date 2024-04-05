@@ -39,6 +39,7 @@
 .productItem img{
 width:25rem;
   height:25rem;
+  object-fit: cover;
 }
 .price{
   margin-block:1rem;
