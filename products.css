@@ -38,8 +38,8 @@
 
 .productItem img{
 width:25rem;
-  height:25rem;
-  object-fit: cover;
+  height:15rem;
+  aspect-ratio:3/4;
 }
 .price{
   margin-block:1rem;
