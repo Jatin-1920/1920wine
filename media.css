@@ -5,6 +5,12 @@
   .prdHead2{
     order:-1;
   }
+
+.prdHead1{
+    border-top-left-radius:3rem;
+  border-bottom-right-radius:none;
+}
+  
   .productHeader>*{
     min-height:50dvh;
   }
