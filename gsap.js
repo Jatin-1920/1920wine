@@ -48,3 +48,7 @@ const products= [
   {image:"img/wine17.jpg",price:14,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine17"  },
   {image:"img/wine18.jpg",price:56,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine18"   },
 ]
+
+  const productList = document.querySelector(".productList")
+
+products.map((item)=>)
