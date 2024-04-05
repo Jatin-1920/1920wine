@@ -5,4 +5,7 @@
   .prdHead2{
     order:-1;
   }
+  .productHeader>*{
+    min-height:50dvh;
+  }
 }
