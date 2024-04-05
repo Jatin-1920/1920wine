@@ -61,3 +61,4 @@ const html = products.map(item=>
   `
 ).join('')
   
+productList.innerHTML = html 
