@@ -38,6 +38,7 @@
 
 .productItem img{
 width:25rem;
+  height:25rem;
 }
 .price{
   margin-block:1rem;
