@@ -1,24 +1,6 @@
 
 
-html.lenis, html.lenis body {
-  height: auto;
-}
 
-.lenis.lenis-smooth {
-  scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
-}
 
 
 html {
@@ -113,8 +95,31 @@ html {
     }
     @font-face{
         font-family:j2;
-        src:url("tarif.ttf");
+        src:url("ginora");
     }
+
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+
 
 :root{
     --h1-font:clamp(1.75rem,2vw + 1rem,3rem);
