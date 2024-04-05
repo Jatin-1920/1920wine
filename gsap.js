@@ -51,13 +51,13 @@ const products= [
 
   const productList = document.querySelector(".productList")
 
-const html = products.map(item=>(
+const html = products.map(item=>
   `
-  <div id=`${item.id}`>
-  <img src=`${item.image}`/>
-  <p class="price"></p>
-  <p class="prodDesc"></p>
+  <div id=${item.id}>
+  <img src=${item.image}/>
+  <p class="price">$ ${item.price}</p>
+  <p class="prodDesc">${item.desc}</p>
   </div>
   `
 ).join('')
-  )
+  
