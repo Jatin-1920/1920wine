@@ -78,7 +78,7 @@ const products= [
 
 const html = products.map(item=>
   `
-  <div id=${item.id}>
+  <div class="productItem" id=${item.id}>
   <img src=${item.image}/>
   <p class="price">$ ${item.price}</p>
   <button type="button">Add Me</button>
