@@ -8,7 +8,7 @@
 
 .prdHead1{
     border-top-left-radius:3rem;
-  border-bottom-right-radius:none;
+  border-bottom-right-radius:0rem;
 }
   
   .productHeader>*{
