@@ -31,14 +31,11 @@
 
 .productList{
   padding:2rem;
-  display:flex;
- flex-direction: column;
-  gap:4rem;
-align-items:center;
+  display:grid;
+  gap:1rem;
+  grid-template-columns:repeat(minmax(15rem,1fr))
 }
-.productItem{
-  max-width:50rem;
-}
+
 .productItem img{
 width:25rem;
 }
@@ -49,6 +46,6 @@ button{
   outline: none;
   background:transparent;
   border:1px solid black;
-  padding:1rem 3rem;
+  padding:1rem;
   text-align:center;
 }
