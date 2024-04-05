@@ -42,3 +42,13 @@ align-items:center;
 .productItem img{
 width:25rem;
 }
+.price{
+  margin-block:1rem;
+}
+button{
+  outline: none;
+  background:transparent;
+  border:1px solid black;
+  padding:1rem 3rem;
+  text-align:center;
+}
