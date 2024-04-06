@@ -50,6 +50,9 @@ const products= [
     {image:"img/wine22.png",price:150,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine22"},
   {image:"img/wine23.png",price:123,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!",id:"wine23"   },
   {image:"img/wine24.png",price:197,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!",id:"wine24"    },
+  
+]
+const products2 = [
     {image:"img/wine25.png",price:125,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine25"  },
   {image:"img/wine26.png",price:169,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!",  id:"wine26"  },
   {image:"img/wine27.png",price:87,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine27"  },
@@ -71,10 +74,12 @@ const products= [
   {image:"img/wine43.png",price:287,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!",  id:"wine43"  },
   {image:"img/wine44.png",price:130,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine44"  },
     {image:"img/wine45.png",price:91,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine45" },
-
+  
 ]
 
   const productList = document.querySelector(".productList")
+  const productList2 = document.querySelector(".productList2")
+
 
 const html = products.map(item=>
   `
@@ -85,5 +90,15 @@ const html = products.map(item=>
   </div>
   `
 ).join('')
+const html2 = products2.map(item=>
+  `
+  <div class="productItem" id=${item.id}>
+  <img src=${item.image}/>
+  <p class="price">$ ${item.price}</p>
+  <button type="button">Add Me</button>
+  </div>
+  `
+).join('')
   
-productList.innerHTML = html 
+productList.innerHTML = html
+productList2.innerHTML = html2
