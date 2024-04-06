@@ -377,7 +377,11 @@ font-size:var(--p-text);
     place-items:center;
     height:100%; 
 }
-
+.winecase a {
+    font-size:var(--l-text);
+    display:flex;
+    margin-top:auto;
+}
 .stickylax{
     height:260vh;
     width:100%;
