@@ -360,6 +360,68 @@ font-size:var(--p-text);
   min-height:50dvh;
   padding:0rem 1rem;
 }
+
+.multiParallax,.topsticky{
+    height:400vh;
+    width:100%;
+    margin-block:-100vh;
+background: #333;
+    position:relative;
+    overflow:clip;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.topsticky{
+    height:300vh;
+    font-size:5dvw;
+    font-family:j1;
+    line-height:1;
+    text-align:center;
+}
+.Plxfont{
+    padding-bottom:3rem;
+}
+.Plxfont:last-child{
+    padding-bottom:0;
+}
+.multilax-container{
+    display:flex;
+    height:100vh;
+    width:100%;
+    overflow:clip;
+    gap:2vw;
+    padding-inline:2vw;
+    position: sticky;
+    top:0;
+}
+
+
+.parallax-images,.paralx-images{
+    height:155vh;
+    width:100%;
+    overflow:clip; 
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+.parallax-images img,.paralx-images img{
+    height:100%;
+    width:100%;
+    margin-bottom:2vw;
+}
+.parallax1,.paralx1{
+    top:-20%;
+}
+.parallax2,.paralx2{
+    top:-30%;
+}
+.parallax3,.paralx3{
+    top:-10%;
+}
+.parallax4,.paralx4{
+    top:-35%;
+    }
+
+
 @media (max-width:50rem){
 
 .bottomNavLine{
