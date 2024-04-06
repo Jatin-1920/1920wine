@@ -40,7 +40,7 @@
 }
 
 .productItem img{
-width:25rem;
+max-width:100%;
   aspect-ratio:3/4;
 }
 .price{
