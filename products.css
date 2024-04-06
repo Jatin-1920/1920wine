@@ -68,7 +68,7 @@ button{
   transform-origin:left;
   transition:all .35s ease-in-out;
 }
-.button:hover .button::before{
+.button:hover::before{
   transform:scaleX(1);
   transform-origin:right;
 }
