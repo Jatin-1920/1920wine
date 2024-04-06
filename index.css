@@ -405,8 +405,9 @@ background: #333;
 }
 .parallax-images img,.paralx-images img{
     height:100%;
-    width:100%;
+    max-width:100%;
     margin-bottom:2vw;
+    aspect-ratio:3/4;
 }
 .parallax1,.paralx1{
     top:-20%;
