@@ -87,7 +87,7 @@ const cliplax = gsap.timeline({
     scrollTrigger: {
         trigger:e,
         start: "top 20%",
-        end: "bottom",
+        end: "bottom bottom",
         scrub: true,
      }
 })
