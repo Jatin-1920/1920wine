@@ -365,14 +365,14 @@ font-size:var(--p-text);
 }
 
 .stickylax{
-    height:240vh;
+    height:280vh;
     width:100%;
-    margin-block:-80vh -100vh;
+    margin-block:-100vh;
 background: #333;
-    position:sticky;
+    
     overflow:clip;
     text-align:center;
-    top:0;
+    position:relative;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
@@ -380,6 +380,9 @@ background: #333;
     font-size:20dvw;
     color:red;
     font-family:thunder;
+    height:150vh;
+    position:sticky;
+    top:0;
 }
 
 .footer{
