@@ -402,7 +402,7 @@ background: #333;
     height:65vh;
     line-height:1;
     display:flex;
-    align-items:center;
+    align-items:end;
 }
 .quote p{
     margin-top:1rem;
