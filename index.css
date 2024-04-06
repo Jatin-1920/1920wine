@@ -365,11 +365,10 @@ font-size:var(--p-text);
 }
 
 .stickylax{
-    height:280vh;
+    height:300vh;
     width:100%;
     margin-block:-100vh;
 background: #333;
-    
     overflow:clip;
     text-align:center;
     position:relative;
@@ -380,7 +379,7 @@ background: #333;
     font-size:20dvw;
     color:red;
     font-family:thunder;
-    height:150vh;
+    height:60vh;
     position:sticky;
     top:0;
 }
