@@ -293,6 +293,7 @@ font-size:var(--p-text);
 .marquee h1{
     margin-inline:2rem;
     font-size:var(--xl-text);
+    color:#36454f;
 }
 .service-container{
     min-height:100dvh;
