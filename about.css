@@ -18,7 +18,7 @@
 .clip1{
    width:70vw;
    margin-inline:auto;
-   height:40vh;
+   height:60vh;
    object-fit:cover;
    clip-path: inset(0 50% 0 50%);
 }
@@ -37,7 +37,7 @@
    font-size:3rem;
 }
 .clip2{
-   height:40vh;
+   height:70vh;
    width:40vw;
    object-fit:cover;
 }
