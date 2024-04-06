@@ -94,9 +94,13 @@ html {
         src:url("thunder.otf");
     }
     @font-face{
-        font-family:j2;
+        font-family:j3;
         src:url("tarif.ttf");
     }
+@font-face{
+        font-family:j2;
+        src:url("tarif.otf");
+}
 
 
 html.lenis, html.lenis body {
