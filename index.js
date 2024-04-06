@@ -79,7 +79,7 @@ window.addEventListener("scroll",() => {
   currentScroll = window.pageYOffset
 })
 
-const clipTop = document.queryselectorAll(".clippath")
+const clipTop = document.querySelectorAll(".clippath")
 
 clipTop.forEach(e=>{
    
