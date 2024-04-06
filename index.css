@@ -400,9 +400,9 @@ background: #333;
 .quote h1{
     font-size:var(--brg-heading);
     height:75vh;
-    line-height:1.1;
-    padding-top:3rem;
-    padding-inline:1rem;
+    line-height:1;
+    display:flex;
+    align-items:center;
 }
 .quote p{
     margin-top:1rem;
