@@ -366,6 +366,7 @@ font-size:var(--p-text);
     background:var(--bg-1);
     min-height:100vh;
     width:100%;
+    position:relative;
 }
 .winecase{
     padding:2rem;
