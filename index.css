@@ -280,6 +280,7 @@ font-size:var(--p-text);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center center;
+    background-attachment:fixed;
 }
 .header-content{
     height:100%;
