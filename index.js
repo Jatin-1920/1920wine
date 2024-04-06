@@ -93,7 +93,8 @@ const cliplax = gsap.timeline({
 
      cliplax.to(".clip1",{
         clipPath: "polygon(100% 0, 0 0, 0 100%, 100% 100%)",
-        ease:"none"
+        ease:"power3.inOut",
+        duration:1
      })
 })
 
