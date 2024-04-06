@@ -56,7 +56,7 @@ button{
   color:black;
 }
 
-.button:before{
+.button::before{
   content:'';
   position: absolute;
   inset:0;
@@ -68,7 +68,7 @@ button{
   transform-origin:left;
   transition:all .35s ease-in-out;
 }
-.button:hover .button:before{
+.button:hover .button::before{
   transform:scaleX(1);
   transform-origin:right;
 }
