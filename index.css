@@ -420,7 +420,13 @@ background: #333;
 .parallax4,.paralx4{
     top:-35%;
     }
-
+.footer{
+    height:100vh;
+    position:fixed;
+    width:100%;
+    z-index:-1;
+    background:black;
+}
 
 @media (max-width:50rem){
 
