@@ -79,5 +79,23 @@ window.addEventListener("scroll",() => {
   currentScroll = window.pageYOffset
 })
 
+const clipTop = document.queryselectorAll(".clip")
+
+clipTop.forEach(e=>{
+   
+const cliplax = gsap.timeline({
+    scrollTrigger: {
+        trigger:e,
+        start: "top 20%",
+        end: "bottom",
+        scrub: true,
+      
+     }
+})
+
+     cliplax.to(".clip1",{
+        clipPath:
+     })
+})
 
 
