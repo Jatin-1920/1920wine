@@ -361,61 +361,24 @@ font-size:var(--p-text);
   padding:0rem 1rem;
 }
 
-.multiParallax{
-    height:400vh;
+.service-container{
+    position:relative;
+}
+.stickylax{
+    height:360vh;
     width:100%;
     margin-block:-100vh;
 background: #333;
-    position:relative;
+    position:sticky;
     overflow:clip;
+    top:0;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-.Plxfont{
-    padding-bottom:3rem;
+.stickylax h1{
+    font-size:15dvw;
+    color:red;
 }
-.Plxfont:last-child{
-    padding-bottom:0;
-}
-.multilax-container{
-    display:flex;
-    height:100vh;
-    flex-direction:column;
-    width:100%;
-    overflow:clip;
-    gap:2vw;
-    padding-inline:2vw;
-    position: sticky;
-    top:0;
-}
-
-
-.parallax-images{
-    height:155vh;
-    width:100%;
-    overflow:clip; 
-    position:relative;
-    display:flex;
-    gap:2vw;
-}
-.parallax-images img{
-    height:100%;
-    width:100%;
-    aspect-ratio:3/4;
-    transform:rotate(90deg);
-}
-.parallax1{
-    left:-20%;
-}
-.parallax2{
-    left:-30%;
-}
-.parallax3{
-    left:-10%;
-}
-.parallax4{
-    left:-35%;
-    }
 
 .footer{
     height:100vh;
