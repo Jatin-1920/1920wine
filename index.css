@@ -373,7 +373,9 @@ font-size:var(--p-text);
     padding:2rem;
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:2rem;
+    gap:5rem;
+    place-items:center;
+    height:100%; 
 }
 
 .stickylax{
