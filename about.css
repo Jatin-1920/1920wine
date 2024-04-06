@@ -29,10 +29,14 @@
 }
 
 .clip-block{
-   margin-top:2rem;
+   margin-block:2rem;
    display:flex;
    flex-direction:column;
    gap:3rem;
+   text-align:center;
+}
+.clip-block h1{
+   font-size:3rem;
 }
 .clip2{
    height:40vh;
