@@ -408,7 +408,7 @@ background: #333;
 }
 
 .stickylax h1{
-    font-size:20dvw;
+    font-size:5rem;
     color:red;
     font-family:thunder;
     height:60vh;
@@ -416,6 +416,7 @@ background: #333;
     top:0;
     display:flex;
     align-items:center;
+    justify-content:center;
 }
 
 .footer{
