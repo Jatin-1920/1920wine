@@ -397,18 +397,14 @@ background: #333;
 .quote{
     height:275vh;
 }
-.quote>h1{
-    font-size:var(--l-text);
+.quoteh{
+    font-size:var(--brg-heading);
     height:60vh;
     line-height:1;
     display:flex;
     align-items:end;
 }
-.quote p{
-    margin-top:1rem;
-    font-size:var(--p1-text);
-    color:white;
-} 
+
 .stickylax h1{
     font-size:20dvw;
     color:red;
