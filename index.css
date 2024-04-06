@@ -361,7 +361,7 @@ font-size:var(--p-text);
   padding:0rem 1rem;
 }
 
-.multiParallax,.topsticky{
+.multiParallax{
     height:400vh;
     width:100%;
     margin-block:-100vh;
@@ -370,13 +370,7 @@ background: #333;
     overflow:clip;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
-.topsticky{
-    height:300vh;
-    font-size:5dvw;
-    font-family:j1;
-    line-height:1;
-    text-align:center;
-}
+
 .Plxfont{
     padding-bottom:3rem;
 }
@@ -386,6 +380,7 @@ background: #333;
 .multilax-container{
     display:flex;
     height:100vh;
+    flex-direction:column;
     width:100%;
     overflow:clip;
     gap:2vw;
@@ -395,7 +390,7 @@ background: #333;
 }
 
 
-.parallax-images,.paralx-images{
+.parallax-images{
     height:155vh;
     width:100%;
     overflow:clip; 
@@ -403,23 +398,23 @@ background: #333;
     display:flex;
     flex-direction:column;
 }
-.parallax-images img,.paralx-images img{
+.parallax-images img{
     height:100%;
     max-width:100%;
     margin-bottom:2vw;
     aspect-ratio:3/4;
 }
-.parallax1,.paralx1{
-    top:-20%;
+.parallax1{
+    left:-20%;
 }
-.parallax2,.paralx2{
-    top:-30%;
+.parallax2{
+    left:-30%;
 }
-.parallax3,.paralx3{
-    top:-10%;
+.parallax3{
+    left:-10%;
 }
-.parallax4,.paralx4{
-    top:-35%;
+.parallax4{
+    left:-35%;
     }
 
 .footer{
