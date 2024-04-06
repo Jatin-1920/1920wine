@@ -88,7 +88,6 @@ const cliplax = gsap.timeline({
         trigger:e,
         start: "top 20%",
         end: "bottom bottom",
-        scrub: true,
      }
 })
 
