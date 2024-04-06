@@ -20,12 +20,7 @@
    margin-inline:auto;
    height:40vh;
    object-fit:cover;
-   clip-path:polygon(
-        49.75% 49.75%,
-        50.25% 49.75%,
-        50.25% 49.75%,
-        49.75% 50.25%
-    );
+   clip-path: polygon(50% 59%, 50% 50%, 50% 100%, 50% 100%, 50% 0, 50% 0);
 }
 
 .clip-block{
