@@ -385,7 +385,7 @@ font-size:var(--p-text);
     justify-content:center;
 }
 .stickylax{
-    height:260vh;
+    height:265vh;
     width:100%;
     margin-block:-100vh;
 background: #333;
@@ -399,7 +399,7 @@ background: #333;
 }
 .quote h1{
     font-size:var(--brg-heading);
-    height:75vh;
+    height:65vh;
     line-height:1;
     display:flex;
     align-items:center;
