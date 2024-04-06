@@ -421,6 +421,11 @@ background: #333;
     top:-35%;
     }
 
+.footer{
+    height:100vh;
+    background:white;
+    width:100%;
+}
 
 @media (max-width:50rem){
 
