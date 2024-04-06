@@ -395,11 +395,11 @@ background: #333;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 .quote{
-    height:275vh;
+    height:240vh;
 }
 .stickylax .quoteh{
-    font-size:var(--brg-heading);
-    height:60vh;
+    font-size:2rem;
+    height:40vh;
     line-height:1;
     display:flex;
     align-items:end;
