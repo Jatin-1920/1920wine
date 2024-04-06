@@ -380,9 +380,9 @@ font-size:var(--p-text);
 .wineShow a {
     font-size:var(--l-text);
     display:flex;
-    margin-top:auto;
-    text-align:center;
-    font-family:thunder;
+    margin-top:3rem;
+    width:100%;
+    place-items:center;
 }
 .stickylax{
     height:260vh;
