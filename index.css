@@ -299,8 +299,6 @@ font-size:var(--p-text);
     display:grid;
     place-items:center;
     padding-inline: 1rem;
-    position:relative;
-    z-index:2;
     background:var(--bg-1);
 }
 .service-content{
@@ -362,6 +360,18 @@ font-size:var(--p-text);
 .thrlax-content{
   min-height:50dvh;
   padding:0rem 1rem;
+}
+
+.wineShow{
+    background:var(--bg-1);
+    min-height:100vh;
+    width:100%;
+}
+.winecase{
+    padding:2rem;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2rem;
 }
 
 .stickylax{
