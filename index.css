@@ -425,6 +425,8 @@ background: #333;
     height:100vh;
     background:white;
     width:100%;
+    position:relative;
+    z-index:2;
 }
 
 @media (max-width:50rem){
