@@ -381,6 +381,7 @@ font-size:var(--p-text);
     font-size:var(--l-text);
     display:flex;
     margin-top:auto;
+    place-items:center;
 }
 .stickylax{
     height:260vh;
