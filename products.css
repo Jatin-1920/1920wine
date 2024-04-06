@@ -46,6 +46,7 @@ max-width:10rem;
 }
 .price{
   margin-block:1rem;
+  font-family:j3;
 }
 button{
   outline: none;
