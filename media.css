@@ -14,4 +14,9 @@
   .productHeader>*{
     min-height:50dvh;
   }
+
+
+  .product-block{
+    grid-template-columns:repeat(2,1fr);
+  }
 }
