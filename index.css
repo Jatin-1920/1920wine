@@ -397,7 +397,7 @@ background: #333;
 .quote{
     height:275vh;
 }
-.quoteh{
+.stickylax .quoteh{
     font-size:var(--brg-heading);
     height:60vh;
     line-height:1;
