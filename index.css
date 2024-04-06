@@ -299,6 +299,8 @@ font-size:var(--p-text);
     display:grid;
     place-items:center;
     padding-inline: 1rem;
+    position:relative;
+    z-index:2;
 }
 .service-content{
     max-width:50rem;
@@ -361,9 +363,6 @@ font-size:var(--p-text);
   padding:0rem 1rem;
 }
 
-.service-container{
-    position:relative;
-}
 .stickylax{
     height:360vh;
     width:100%;
@@ -371,12 +370,13 @@ font-size:var(--p-text);
 background: #333;
     position:sticky;
     overflow:clip;
+    text-align:center;
     top:0;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .stickylax h1{
-    font-size:15dvw;
+    font-size:20dvw;
     color:red;
     font-family:thunder;
 }
