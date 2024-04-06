@@ -20,7 +20,7 @@
    margin-inline:auto;
    height:40vh;
    object-fit:cover;
-   clip-path: polygon(50% 59%, 50% 50%, 50% 100%, 50% 100%, 50% 0, 50% 0);
+   clip-path: inset(0 50% 0 50%);
 }
 .clippath{
    width:100%;
