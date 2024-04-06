@@ -33,6 +33,9 @@
   padding:2rem;
   display:grid;
   gap:1rem;
+  position:relative;
+  z-index:2;
+  background:var(--bg-1);
   grid-template-columns:repeat(3,1fr);
 }
 
