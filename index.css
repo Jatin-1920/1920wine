@@ -401,6 +401,7 @@ background: #333;
     font-size:var(--brg-heading);
     height:75vh;
     line-height:1.1;
+    padding:3rem 1rem;
 }
 .quote p{
     margin-top:1rem;
