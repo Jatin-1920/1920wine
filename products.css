@@ -57,7 +57,7 @@ button{
   z-index:1;
 }
 
-.button::after{
+button::after{
   content:'';
   position: absolute;
   inset:0;
@@ -70,10 +70,10 @@ button{
   transform-origin:left;
   transition:all .35s ease-in-out;
 }
-.button:hover::after{
+button:hover::after{
   transform:scaleX(1);
   transform-origin:right;
 }
-.button:hover {
+button:hover {
   color:white;
 }
