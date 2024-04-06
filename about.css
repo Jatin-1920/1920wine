@@ -1,5 +1,9 @@
 .aboutHeader{
-    
+   background-size: cover;
+    height:100vh;
+    width:100%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     background:url(img/about.jpeg);
-    
 }
