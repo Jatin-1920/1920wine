@@ -403,6 +403,7 @@ background: #333;
     max-width:100%;
     margin-bottom:2vw;
     aspect-ratio:3/4;
+    transform:rotate(180deg);
 }
 .parallax1{
     left:-20%;
