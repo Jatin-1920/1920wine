@@ -398,7 +398,7 @@ background: #333;
     height:275vh;
 }
 .quote h1{
-    font-size:var(--h2-text);
+    font-size:var(--brg-heading);
     height:75vh;
 }
 .quote p{
