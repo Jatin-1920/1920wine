@@ -365,9 +365,9 @@ font-size:var(--p-text);
 }
 
 .stickylax{
-    height:160vh;
+    height:210vh;
     width:100%;
-    margin-block:-50vh;
+    margin-block:-50vh -100vh;
 background: #333;
     position:sticky;
     overflow:clip;
@@ -383,7 +383,7 @@ background: #333;
 }
 
 .footer{
-    height:60vh;
+    height:100vh;
     background:white;
     width:100%;
     position:relative;
