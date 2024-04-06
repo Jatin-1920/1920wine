@@ -398,12 +398,13 @@ background: #333;
     height:275vh;
 }
 .quote h1{
-    font-size:5dvw;
+    font-size:var(--h2-text);
     height:75vh;
 }
 .quote p{
     margin-top:1rem;
     font-size:var(--p1-text);
+    color:white;
 } 
 .stickylax h1{
     font-size:20dvw;
