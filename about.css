@@ -20,5 +20,23 @@
    margin-inline:auto;
    height:40vh;
    object-fit:cover;
+   clip-path:polygon(
+        49.75% 49.75%,
+        50.25% 49.75%,
+        50.25% 49.75%,
+        49.75% 50.25%
+    );
+}
+
+.clip-block{
+   margin-top:2rem;
+   display:flex;
+   flex-direction:column;
+   gap:3rem;
+}
+.clip2{
+   height:40vh;
+   width:40vw;
+   object-fit:cover;
 }
 /* "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" */
