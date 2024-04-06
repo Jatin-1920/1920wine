@@ -377,11 +377,12 @@ font-size:var(--p-text);
     place-items:center;
     height:100%; 
 }
-.winecase a {
-    font-size:var(--p1-text);
+.wineShow a {
+    font-size:var(--l-text);
     display:flex;
     margin-top:auto;
     text-align:center;
+    font-family:thunder;
 }
 .stickylax{
     height:260vh;
