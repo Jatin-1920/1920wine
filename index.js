@@ -105,24 +105,27 @@ const clip2 = document.querySelector(".clip2")
 })
 
 
-       const hscroll = document.querySelector(".horizontal-scroll")
-function scroll() {
-   let scroller = hscroll.scrollWidth
-   return -(scroller - window.innerWidth)
-}
+       const races = document.querySelector(".horizontal-scroll")
+function getScrollAmount(){
+    let racesWidth = races.scrollWidth
+    return -(racesWidth-window.innerWidth)
 
-   const slider = gsap.to(hscroll,{
-      x:scroll,
-      duration:5,
-      ease:"none"
-   })
+}
+let skewEl = races.querySelectorAll("h2")
+const slider = gsap.to(races,{
+    x:getScrollAmount,
+    duration:5,ease:"none",
+  
+
+})
 
 ScrollTrigger.create({
-   trigger:".horizontal-container",
-   start:"top 20%",
-   end:()=>`+=${scroll()*-1}`,
-   pin:true,
-   scrub:true,
-   animation:slider,
-   invalidateOnRefresh:true,
+    trigger:".racesWrapper",
+    start:"top  20%",
+    end:()=> `+=${getScrollAmount()*-1}`,
+    pin:true,
+    scrub:1,
+    invalidateOnRefresh:true,
+    animation:slider,
+  
 })
