@@ -447,11 +447,11 @@ background: #333;
 }
 
 .footer-top h1{
-    font-size:var(--brg-heading);
+    font-size:var(--h2-text);
     margin-bottom:2rem;
 }
 #email{
-    padding:2rem;
+    padding:1rem;
     width:100%;
     text-align:center;
     border:1px solid grey;
@@ -463,6 +463,7 @@ background: #333;
      background:var(--bg-1);
      color:black;
      width:100%;
+     margin-top:1rem;
  }
 
 @media (max-width:50rem){
