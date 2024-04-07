@@ -466,6 +466,7 @@ background: #333;
      margin-top:1rem;
      padding:1rem;
      border-radius:.5rem;
+     font-weight:bold;
      transition:all .35s.ease-in-out;
  }
 .signup:hover{
