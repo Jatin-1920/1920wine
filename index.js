@@ -121,7 +121,7 @@ function scroll() {
 ScrollTrigger.create({
    trigger:".horizontal-container",
    start:"top 20%",
-   end:()=>`${scroll()*-1}`,
+   end:()=>`+=${scroll()*-1}`,
    pin:true,
    scrub:true,
    animation:slider,
