@@ -13,7 +13,6 @@ gsap.registerPlugin(ScrollTrigger)
     wheelMultiplier: 1,
     infinite: false,
     autoResize: true,
-      smoothWheel:true
 })
   
 lenis.on('scroll', ScrollTrigger.update)
