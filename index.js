@@ -115,5 +115,14 @@ function scroll() {
    const slider = gsap.to(hscroll,{
       x:scroll,
       duration:5,
-      ease
+      ease:"none"
    })
+
+ScrollTrigger.create({
+   trigger:".horizontal-container",
+   start:"top 20%",
+   end:()=>`${scroll()*-1}`,
+   pin:true,
+   scrub:1,
+   animation:slider
+})
