@@ -58,8 +58,8 @@
 .h-scroll1{
    display:flex;
 }
-.h-scroll img{
-   height:40vh;
+.h-scroll1 img{
+   height:30vh;
    width:60vw;
    margin-left:-5rem;
 }
