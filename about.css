@@ -83,12 +83,12 @@
    width:20rem;
    font-size:0.85rem;
 }
-.h-img3{
-   background:url(img/about.jpeg);
+.h-scroll3{
+   background-image:url(img/about.jpeg);
    background-size:cover;
     background-repeat:no-repeat;
    position:relative;
-   width:80vw;
+   min-width:80vw;
    height:50vh;
     background-position:center center;
 }
