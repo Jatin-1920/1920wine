@@ -476,11 +476,9 @@ background: #333;
 }
 .footer-bottom{
     height:100%;
-    padding-top:2rem;
 }
 .footer-bottom .header-content{
-    align-items:center;
-    
+    padding-block:2rem;
 }
 
 .footer-bottom .header-content .marquee h1{
