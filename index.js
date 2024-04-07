@@ -123,7 +123,7 @@ ScrollTrigger.create({
    start:"top 20%",
    end:()=>`${scroll()*-1}`,
    pin:true,
-   scrub:1,
+   scrub:true,
    animation:slider,
    invalidateOnRefresh:true,
 })
