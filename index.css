@@ -441,6 +441,7 @@ background: #333;
     padding:1.5rem;
     display:flex;
     flex-direction:column;
+    justify-content:center;
     color:var(--bg-1);
     place-items:center;
     border-bottom-left-radius:3rem;
@@ -473,7 +474,9 @@ background: #333;
 .signup:hover{
     background:#EDEADE;
 }
-
+.footer-bottom{
+    height:100%;
+}
 .footer-bottom .header-content{
     align-items:center;
     
@@ -481,6 +484,7 @@ background: #333;
 
 .footer-bottom .header-content .marquee h1{
    color:black; 
+    font-size:var(--h1-text);
 }
 @media (max-width:50rem){
 
