@@ -491,7 +491,8 @@ background: #333;
     display: grid;
     font-size:var(--p1-text);
     font-weight:bold;
-    grid-template-columns:.35fr .65fr;
+    padding-inline:1rem;
+    grid-template-columns:.65fr .35fr;
 }
 .footerNavBlock{
     display:flex;
