@@ -130,13 +130,4 @@ ScrollTrigger.create({
   
 })
 
-   gsap.to(".h-img",{
-      scrollTrigger:{
-         trigger:".h-scroll",
-         scrub:true,
-         x:-75,
-         ease:"none",
-         start:"left 20%",
-         end:"left 100%"
-      }
-   })
+   
