@@ -47,13 +47,12 @@
 } 
 
 .horizontal-scroll{
-   width:100%;
+   width:fit-content;
    display:flex;
    gap:3.25rem;
 }
 .h-scroll{
 width:100%;
-   position:relative;
 }
 .h-scroll1{
    display:flex;
