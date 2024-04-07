@@ -101,10 +101,10 @@ const clip2 = e.querySelector(".clip2")
         y:-65
      }).to(clip2,{
    ease:"none",
-        y:-100
+        y:-80
      },0).to(e,{
         ease:"none",
-        y:-110
+        y:-60
      },0)
 })
 
