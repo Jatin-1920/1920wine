@@ -102,7 +102,6 @@ left:50%;
 .h-scroll4{
    display:flex;
    gap:2rem;
-   align-items:center;
 }
 .h-scroll4 img{
    height:75vh;
