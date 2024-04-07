@@ -440,7 +440,7 @@ background: #333;
     padding:3rem;
     display:flex;
     flex-direction:column;
-    color:grey;
+    color:var(--bg-1);
     place-items:center;
     border-bottom-left-radius:3rem;
     border-bottom-right-radius:3rem;
@@ -464,7 +464,13 @@ background: #333;
      color:black;
      width:100%;
      margin-top:1rem;
+     padding:1rem;
+     border-radius:.5rem;
+     transition:all .35s.ease-in-out;
  }
+.signup:hover{
+    background:grey;
+}
 
 @media (max-width:50rem){
 
