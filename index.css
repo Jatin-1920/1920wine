@@ -447,7 +447,7 @@ background: #333;
 }
 
 .footer-top h1{
-    font-size:var(--h2-text);
+    font-size:var(--h1-text);
     margin-bottom:2rem;
 }
 #email{
@@ -465,11 +465,12 @@ background: #333;
      width:100%;
      margin-top:1rem;
      padding:1rem;
+     font-family:thunder;
      border-radius:.5rem;
      transition:all .35s.ease-in-out;
  }
 .signup:hover{
-    background:grey;
+    background:#EDEADE;
 }
 
 @media (max-width:50rem){
