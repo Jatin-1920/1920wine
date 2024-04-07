@@ -16,11 +16,10 @@
    padding:2rem;
 }
 .clip1{
-   width:70vw;
+   width:60vw;
    margin-inline:auto;
    height:60vh;
    object-fit:cover;
-   clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
 }
 .clippath{
    height:100%;
@@ -37,7 +36,7 @@
    font-size:3rem;
 }
 .clip2{
-   height:60vh;
+   height:50vh;
    width:50vw;
    object-fit:cover;
 }
