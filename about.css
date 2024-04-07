@@ -55,7 +55,7 @@
    min-width:100vw;
    position:relative;
 }
-.h-scroll1,.h-scroll2{
+.h-scroll1{
    display:flex;
 }
 .h-scroll1 img{
@@ -70,8 +70,11 @@
 }
 
 .h-scroll2{
+   display:flex;
    gap:2rem;
-   width:40rem;
    align-items:end;
+}
+.h-p{
+   width:40rem;
 }
 
