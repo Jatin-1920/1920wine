@@ -108,7 +108,7 @@ const clip2 = document.querySelector(".clip2")
 
        const races = document.querySelector(".horizontal-scroll")
 function getScrollAmount(){
-    let racesWidth = races.scrollWidth
+    let racesWidth = races.clientWidth
     return -(racesWidth-window.innerWidth)
 
 }
