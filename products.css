@@ -29,7 +29,8 @@
 }
 
 .product-block{
-  padding:1rem 3rem;
+  margin-block:3rem;
+  padding:1rem;
   display:grid;
   gap:1rem;
   position:relative;
