@@ -108,6 +108,12 @@ const clip2 = document.querySelector(".clip2")
 
        const hscroll = document.querySelector(".horizontal-scroll")
 function scroll() {
-   const scroller = hscroll.scrollWidth
-   
+   let scroller = hscroll.scrollWidth
+   return -(scroller - window.innerWidth)
 }
+
+   const slider = gsap.to(hscroll,{
+      x:scroll,
+      duration:5,
+      ease
+   })
