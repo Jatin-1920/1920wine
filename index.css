@@ -265,6 +265,7 @@ a{
 }
 h1{
     font-family:thunder;
+    text-wrap:balance;
     font-size:var(--h1-text);
 }
 p{
@@ -484,6 +485,24 @@ background: #333;
 .footer-bottom .header-content .marquee h1{
    color:black; 
     font-size:var(--h1-text);
+}
+.footer-nav {
+    display:flex;
+}
+.footerNavBlock{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items:end;
+}
+.footerAddr{
+    max-width:20rem;
+}
+.copyright {
+    max-width:20rem;
+    padding:2rem;
+    margin-inline:auto;
 }
 @media (max-width:50rem){
 
