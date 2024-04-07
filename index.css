@@ -476,9 +476,12 @@ background: #333;
 
 .footer-bottom .header-content{
     align-items:center;
-    color:black;
+    
 }
 
+.footer-bottom .header-content .marquee h1{
+   color:black; 
+}
 @media (max-width:50rem){
 
 .bottomNavLine{
