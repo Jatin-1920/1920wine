@@ -7,12 +7,13 @@ gsap.registerPlugin(ScrollTrigger)
     direction: 'both',
     gestureDirection: 'both',
     lerp: 0.05,
-    smooth: 2,
+    smooth: true,
     smoothTouch: false,
     touchMultiplier: 2,
     wheelMultiplier: 1,
     infinite: false,
     autoResize: true,
+      smoothWheel: true 
 })
   
 lenis.on('scroll', ScrollTrigger.update)
@@ -128,3 +129,13 @@ ScrollTrigger.create({
     animation:slider,
   
 })
+
+   gsap.to(".h-img",{
+      scrollTrigger:{
+         scrub:true,
+         x:-75,
+         ease:"none",
+         start:"left 20%",
+         end:"left 100%"
+      }
+   })
