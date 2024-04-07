@@ -473,6 +473,9 @@ background: #333;
     background:#EDEADE;
 }
 
+.footer-bottom .header-content{
+    align-items:center;
+}
 @media (max-width:50rem){
 
 .bottomNavLine{
