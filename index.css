@@ -475,6 +475,7 @@ background: #333;
 
 .footer-bottom .header-content{
     align-items:center;
+    color:black;
 }
 @media (max-width:50rem){
 
