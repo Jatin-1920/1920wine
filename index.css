@@ -445,6 +445,7 @@ background: #333;
     justify-content:center;
     color:var(--bg-1);
     place-items:center;
+    min-height:50vh;
     border-bottom-left-radius:3rem;
     border-bottom-right-radius:3rem;
 }
@@ -513,5 +514,10 @@ background: #333;
   .marquee h1{
     font-size:25vw;
   }
+    .footer-nav{
+        flex-direction:column;
+    gap:2rem;
+        align-items:start;
+    }
 
 }
