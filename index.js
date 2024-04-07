@@ -124,5 +124,6 @@ ScrollTrigger.create({
    end:()=>`${scroll()*-1}`,
    pin:true,
    scrub:1,
-   animation:slider
+   animation:slider,
+   invalidateOnRefresh:true,
 })
