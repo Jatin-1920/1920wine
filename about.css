@@ -55,14 +55,16 @@
    min-width:100vw;
    position:relative;
 }
+.h-scroll1{
+   display:flex;
+}
 .h-scroll img{
-   height:60vh;
+   height:40vh;
    width:60vw;
-   position: absolute;
-   right:-50%;
-   top:0;
+   margin-left:-5rem;
 }
 .h-scroll h1{
    font-size:70vw;
    line-height:1.1;
+   order:-1;
 }
