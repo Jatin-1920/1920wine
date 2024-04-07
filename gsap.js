@@ -95,7 +95,7 @@ const html2 = products2.map(item=>
   <div class="productItem" id=${item.id}>
   <img src=${item.image}/>
   <p class="price">$ ${item.price}</p>
-  <button type="button">Add Me</button>
+  <button type="addbutton">Add Me</button>
   </div>
   `
 ).join('')
