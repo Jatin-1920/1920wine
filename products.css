@@ -48,7 +48,7 @@ max-width:10rem;
   margin-block:1rem;
   font-family:"Trebuchet MS",sans-serif;
 }
-button{
+.addbutton{
   outline: none;
   background:transparent;
   border:1px solid black;
@@ -59,7 +59,7 @@ button{
   z-index:1;
 }
 
-button::after{
+.addbutton::after{
   content:'';
   position: absolute;
   inset:0;
@@ -72,10 +72,10 @@ button::after{
   transform-origin:left;
   transition:all .35s ease-in-out;
 }
-button:hover::after{
+.addbutton:hover::after{
   transform:scale(1);
   transform-origin:right;
 }
-button:hover {
+.addbutton:hover {
   color:white;
 }
