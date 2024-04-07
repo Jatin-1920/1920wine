@@ -2,9 +2,18 @@ gsap.registerPlugin(ScrollTrigger)
 
 
    const lenis = new Lenis({
-  content:document.querySelector('.lerp'),
-   smoothWheel:true,
-      lerp:0.05
+  duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    lerp: 0.05,
+    smooth: 2,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    wheelMultiplier: 1,
+    infinite: false,
+    autoResize: true,
+      smoothWheel:true
 })
   
 lenis.on('scroll', ScrollTrigger.update)
