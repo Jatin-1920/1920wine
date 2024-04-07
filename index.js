@@ -106,3 +106,8 @@ const clip2 = document.querySelector(".clip2")
 })
 
 
+       const hscroll = document.querySelector(".horizontal-scroll")
+function scroll() {
+   const scroller = hscroll.scrollWidth
+   
+}
