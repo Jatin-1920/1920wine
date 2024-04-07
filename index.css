@@ -295,6 +295,7 @@ font-size:var(--p-text);
     margin-inline:2rem;
     font-size:var(--xl-text);
     color:var(--bg-1);
+    white-space:no-wrap;
 }
 .service-container{
     min-height:100vh;
@@ -477,6 +478,7 @@ background: #333;
     align-items:center;
     color:black;
 }
+
 @media (max-width:50rem){
 
 .bottomNavLine{
