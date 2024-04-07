@@ -490,6 +490,7 @@ background: #333;
 .footer-nav {
     display: grid;
     font-size:var(--p1-text);
+    font-weight:bold;
     grid-template-columns:.35fr .65fr;
 }
 .footerNavBlock{
