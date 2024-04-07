@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 
    const lenis = new Lenis({
-  content:document.querySelector(".lerp"),
+  content:document.querySelector('.lerp'),
    smoothWheel:true,
       lerp:0.05
 })
