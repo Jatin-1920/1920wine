@@ -60,10 +60,10 @@
 }
 .h-scroll1 img{
    height:30vh;
-   width:30vw;
+   width:60vw;
 }
 .h-scroll h1{
-   font-size:15vw;
+   font-size:10rem;
    line-height:1;
    order:-1;
 }
