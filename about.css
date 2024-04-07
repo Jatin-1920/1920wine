@@ -51,9 +51,7 @@
    display:flex;
    gap:3.25rem;
 }
-.h-scroll{
-width:100%;
-}
+
 .h-scroll1{
    display:flex;
 }
