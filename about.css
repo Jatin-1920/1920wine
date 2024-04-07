@@ -52,7 +52,7 @@
    gap:3.25rem;
 }
 .h-scroll{
-   min-width:100vw;
+   min-width:100%;
    position:relative;
 }
 .h-scroll1{
