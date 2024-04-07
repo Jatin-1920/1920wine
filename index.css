@@ -467,7 +467,6 @@ background: #333;
      padding:1rem;
      font-family:thunder;
      border-radius:.5rem;
-     font-size:var(--p1-text);
      transition:all .35s.ease-in-out;
  }
 .signup:hover{
