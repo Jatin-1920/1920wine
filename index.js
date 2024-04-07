@@ -93,7 +93,7 @@ const cliplax = gsap.timeline({
      }
 })
 const clip1 = e.querySelector(".clip1")
-const clip1 = e.querySelector(".clip2")
+const clip2 = e.querySelector(".clip2")
 
    
      cliplax.to(clip1,{
