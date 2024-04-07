@@ -1,6 +1,6 @@
 const races = document.querySelector(".horizontal-scroll")
 function getScrollAmount(){
-    let racesWidth = races.clientWidth
+    let racesWidth = races.scrollWidth
     return -(racesWidth-window.innerWidth)
 
 }
