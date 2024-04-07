@@ -89,12 +89,12 @@ const cliplax = gsap.timeline({
         trigger:e,
         start: "top 20%",
         end: "bottom bottom",
-       scrub:1,
      }
 })
 
      cliplax.from(".clip2",{
-        clipPath: "polygon(100% 0, 100% 100%, 100% 100%, 100% 0)",
+   scale:2,
+        height:0,
         ease:"power3.inOut",
         duration:1
      })
