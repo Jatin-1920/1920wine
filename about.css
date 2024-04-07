@@ -40,3 +40,28 @@
    width:50vw;
    object-fit:cover;
 }
+
+.horizontal-container{
+   height:100vh;
+   padding:2rem;
+} 
+
+.horizontal-scroll{
+   width:fit-content;
+   display:flex;
+   gap:2rem;
+}
+.h-scroll{
+   min-width:100vw;
+   position:relative;
+}
+.h-scroll img{
+   height:60vh;
+   width:60vw;
+   position: absolute;
+   right:-50%;
+   top:0;
+}
+.h-scroll h1{
+   font-size:40vw;
+}
