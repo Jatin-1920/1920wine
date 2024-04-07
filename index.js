@@ -93,7 +93,7 @@ const cliplax = gsap.timeline({
      }
 })
 const clip1 = e.querySelector(".clip1")
-const clip2 = e.querySelector(".clip2")
+const clip2 = document.querySelector(".clip2")
 
    
      cliplax.to(clip1,{
@@ -101,7 +101,7 @@ const clip2 = e.querySelector(".clip2")
         y:-65
      }).to(clip2,{
    ease:"none",
-        y:-80
+        y:-100
      },0)
 })
 
