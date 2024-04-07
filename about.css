@@ -77,9 +77,10 @@
 .p-scroll{
    display:flex;
    gap:2rem;
-   font-size:.75rem;
+   
 }
 .h-p{
    width:26rem;
+   font-size:0.75rem;
 }
 
