@@ -438,7 +438,7 @@ background: #333;
 .footer-top{
     background:black;
     text-align:center;
-    padding:3rem;
+    padding:1.5rem;
     display:flex;
     flex-direction:column;
     color:var(--bg-1);
@@ -448,11 +448,11 @@ background: #333;
 }
 
 .footer-top h1{
-    font-size:var(--h1-text);
+    font-size:var(--ms-text);
     margin-bottom:2rem;
 }
 #email{
-    padding:1rem;
+    padding:.75rem;
     width:100%;
     text-align:center;
     border:1px solid grey;
@@ -465,7 +465,7 @@ background: #333;
      color:black;
      width:100%;
      margin-top:1rem;
-     padding:1rem;
+     padding:.75rem;
      border-radius:.5rem;
      font-weight:bold;
      transition:all .35s.ease-in-out;
