@@ -52,10 +52,9 @@
    width: inherit;
    display:flex;
    height:inherit;
+   gap:4rem;
 }
-.h-scroll{
-   margin-inline:4rem;
-}
+
 .h-scroll1{
    display:flex;
 }
