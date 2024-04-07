@@ -111,7 +111,6 @@ function getScrollAmount(){
     return -(racesWidth-window.innerWidth)
 
 }
-let skewEl = races.querySelectorAll("h2")
 const slider = gsap.to(races,{
     x:getScrollAmount,
     duration:5,ease:"none",
@@ -120,8 +119,8 @@ const slider = gsap.to(races,{
 })
 
 ScrollTrigger.create({
-    trigger:".racesWrapper",
-    start:"top  20%",
+    trigger:".horizontal-container",
+    start:"top 20%",
     end:()=> `+=${getScrollAmount()*-1}`,
     pin:true,
     scrub:1,
