@@ -45,12 +45,13 @@
    height:100vh;
    padding:2rem;
    display:flex;
-   width:100%;
+   width:max-content;
 } 
 
 .horizontal-scroll{
-   width:fit-content;
+   width: inherit;
    display:flex;
+   height:inherit;
 }
 .h-scroll{
    margin-inline:4rem;
