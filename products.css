@@ -14,7 +14,6 @@
   flex:1;
 }
 .prdHead1{
-  
   background:white;
   padding:2rem;
   border-top-right-radius:3rem;
@@ -30,7 +29,7 @@
 }
 
 .product-block{
-  padding:1rem;
+  padding:1rem 3rem;
   display:grid;
   gap:1rem;
   position:relative;
