@@ -102,9 +102,14 @@ left:50%;
 .h-scroll4{
    display:flex;
    gap:2rem;
+   padding-right:2rem;
 }
 .h-scroll4 img{
    height:75vh;
    width:80vw;
+}
+.h-scroll4 p{
+   display:flex;
+   margin-block:auto;
 }
 
