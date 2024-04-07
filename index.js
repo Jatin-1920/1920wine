@@ -87,17 +87,22 @@ clipTop.forEach(e=>{
 const cliplax = gsap.timeline({
     scrollTrigger: {
         trigger:e,
-        start: "top 20%",
-        end: "bottom bottom",
+        start: "top bottom",
+        end: "bottom top",
+       scrub:true
      }
 })
+const clip1 = e.querySelector(".clip1")
+const clip1 = e.querySelector(".clip2")
 
-     cliplax.from(".clip2",{
-   scale:2,
-        height:0,
-        ease:"power3.inOut",
-        duration:1
-     })
+   
+     cliplax.to(clip1,{
+   ease:"none",
+        y:-65
+     }).to(clip2,{
+   ease:"none",
+        y:-100
+     },0)
 })
 
 
