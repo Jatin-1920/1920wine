@@ -71,8 +71,11 @@
 
 .h-scroll2{
    display:flex;
-   gap:2rem;
    align-items:end;
+}
+.p-scroll{
+   display:flex;
+   gap:2rem;
 }
 .h-p{
    width:40rem;
