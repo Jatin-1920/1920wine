@@ -49,7 +49,7 @@
 } 
 
 .horizontal-scroll{
-   width: inherit;
+   width:fit-content;
    display:flex;
    height:inherit;
    gap:4rem;
