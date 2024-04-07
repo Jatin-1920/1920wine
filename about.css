@@ -44,14 +44,17 @@
 .horizontal-container{
    height:100vh;
    padding:2rem;
+   display:flex;
+   width:100%;
 } 
 
 .horizontal-scroll{
    width:fit-content;
    display:flex;
-   gap:3.25rem;
 }
-
+.h-scroll{
+   margin-inline:4rem;
+}
 .h-scroll1{
    display:flex;
 }
@@ -60,8 +63,8 @@
    width:30rem;
 }
 .h-scroll h1{
-   font-size:70vw;
-   line-height:1.1;
+   font-size:15vw;
+   line-height:1;
    order:-1;
 }
 
@@ -73,7 +76,6 @@
 .p-scroll{
    display:flex;
    gap:3.25rem;
-   
 }
 .h-p{
    width:20rem;
@@ -84,7 +86,7 @@
    background-size:cover;
     background-repeat:no-repeat;
    position:relative;
-   min-width:80vw;
+   width:80vw;
    height:50vh;
     background-position:center center;
 }
