@@ -393,7 +393,7 @@ font-size:var(--p-text);
     height:260vh;
     width:100%;
     margin-block:-100vh;
-background: #333;
+background:#3b3c36;
     overflow:clip;
     text-align:center;
     position:relative;
