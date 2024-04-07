@@ -83,7 +83,7 @@ const products2 = [
 
 const html = products.map(item=>
   `
-  <div class="productItem" id=${item.id}>
+  <div class="productItem" class=${item.id} id=${item.id}>
   <img src=${item.image}/>
   <p class="price">$ ${item.price}</p>
   <button type="button" class="addbutton">Add Me</button>
@@ -95,7 +95,7 @@ const html2 = products2.map(item=>
   <div class="productItem" id=${item.id}>
   <img src=${item.image}/>
   <p class="price">$ ${item.price}</p>
-  <button type="addbutton">Add Me</button>
+  <button type="button" class="addbutton">Add Me</button>
   </div>
   `
 ).join('')
