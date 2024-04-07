@@ -436,9 +436,33 @@ background: #333;
 }
 .footer-top{
     background:black;
+    text-align:center;
+    padding:3rem;
+    display:grid;
+    color:grey;
+    place-items:center;
     border-bottom-left-radius:3rem;
     border-bottom-right-radius:3rem;
 }
+
+.footer-top h1{
+    font-size:var(--brg-heading);
+    margin-bottom:2rem;
+}
+#email{
+    padding:2rem;
+    width:100%;
+    text-align:center;
+    border:1px solid grey;
+    border-radius:.5rem;
+}
+ .signup{
+     outline:none;
+     border: none;
+     background:var(--bg-1);
+     color:black;
+     width:100%;
+ }
 
 @media (max-width:50rem){
 
