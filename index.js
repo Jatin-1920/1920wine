@@ -152,7 +152,7 @@ function updating(item) {
    } else {
       essenceItem.push(item)
    }
-   store.dispatchEvent(new CustomEvent("itemsUpdated"))
+   
 }
 
 function addToCartItem(e) {
