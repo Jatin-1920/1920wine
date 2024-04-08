@@ -235,7 +235,7 @@ function updating(item) {
 }
 */
 function addToCartItem(e) {
-const current = e.currentTarget
+const current = e.currentTarget.parentElement
    const oldprice = current.previousElementSibling.textContent
    const price = parseFloat(oldprice)
    const image = oldprice.previousElementSibling
@@ -249,7 +249,7 @@ price,
 }
 
 
-   console.log(item)
+   console.log(current)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
