@@ -239,7 +239,7 @@ const current = e.currentTarget
    const oldprice = current.previousElementSibling.textContent
    const price = parseFloat(oldprice)
    const image = oldprice.previousElementSibling
-   const img = image.src
+   const img = image
 let item = {
 price,
     img,
