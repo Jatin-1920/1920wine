@@ -277,7 +277,7 @@ font-size:var(--p-text);
 .cart{
     position:fixed;
     height:100%;
-width:40dvw;
+  width:0dvw;
     background:var(--bg-3);
     z-index:200;
     display:flex;
