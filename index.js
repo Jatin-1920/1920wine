@@ -252,12 +252,11 @@ const html =  essenceItem.map(x=>
 `
           <div class="Cart-col" id=${x.id}>
           <img src=${x.img}>
-          <div class="cart-Price">
-              <span class="cart-Title ">${x.name}</span>
+          <div class="cartPriceCol">
               <span class="cartPrice">$ ${x.price}</span>
-              <span id="button" ><i class="fa fa-trash" id=${x.id} ></i></span>
+              <span id="deleteCart" ><i class="fa fa-trash" id=${x.id} ></i></span>
           </div>
-          <div class="cart-col-flex">
+          <div class="cart-count-col">
           <button class="minus" onclick="decrement(${x.id})">-</button>
           <span class="counted">${x.count}</span>
           <button class="plus" onclick="increment(${x.id})">+</button>
