@@ -156,19 +156,16 @@ return
 }
 */
 function addToCartItem(e) {
-const current = e.currentTarget
-const oldprice = current.childNodes[2].textContent
+const current = e.target
+const oldprice = current.previousSibling.textContent
 const price = parseFloat(oldprice)
-const image = current.childNodes[1]
-const img = image.src
-const classes = current.className;
-
+const image = oldprice.previousSibling
+const img = image.src;
 let item = {
     name,
 price,
     img,
  id : Date.now(),
-    class:classes,
     count:1,
     countPrice : price,
 }
