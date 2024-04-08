@@ -206,7 +206,7 @@ const sumPrice = document.querySelector('.cartTotal')
     })
     return sumPrice
 }
-
+*/
 
 function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
@@ -222,7 +222,7 @@ return
    
 }
 
-*/
+
 function updating(item) {
   let selectedItem = essenceItem.find(x=>x.classes===item.classes)
    if(selectedItem) {
@@ -251,7 +251,7 @@ price,
    classes,
 }
 
-updating(item)
+updateCartItem(item)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
