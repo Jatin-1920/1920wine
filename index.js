@@ -120,7 +120,7 @@ const addToCart =  document.querySelectorAll('.addbutton')
 const sumPrice = document.querySelector('.cartTotal')
 
 
-function countSumPrice(){
+/*function countSumPrice(){
     let  sumPrice = 0
     essenceItem.forEach(item=>{
        sumPrice += item.price
@@ -144,7 +144,7 @@ return
 }
 
 
-/*function updating(item) {
+function updating(item) {
   let selectedItem = essenceItem.find(x=>x.class===item.class)
    if(selectedItem) {
       essenceItem.count += 1
@@ -169,14 +169,15 @@ price,
     countPrice : price,
 }
 
-updateCartItem(item)
+essenceItem.push(item)
    console.log(item)
+   store.innerHTML = item
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 alert(`Your ${name} added to the cart`)
 }
 
 console.log(essenceItem)
-function displayItem(){
+/*function displayItem(){
     
 const html =  essenceItem.map(x=> 
 `
@@ -261,10 +262,10 @@ if(search.count === 0) {
 }
 store.dispatchEvent(new CustomEvent("itemsUpdated"));
 }
-
+*/
 
 addToCart.forEach(btn=>btn.addEventListener('click',addToCartItem))
-store.addEventListener("itemsUpdated",displayItem)
+/*store.addEventListener("itemsUpdated",displayItem)
 store.addEventListener("itemsUpdated",eventLocalStorage)
 store.addEventListener("click",(e)=>{
     const id = parseInt(e.target.id)
@@ -276,5 +277,5 @@ store.addEventListener("click",(e)=>{
 
 
 getLocale()    
-
+*/
    
