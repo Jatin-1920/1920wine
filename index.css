@@ -278,6 +278,7 @@ font-size:var(--p-text);
     position:fixed;
     min-height:100vh;
     width:50vw;
+    background:white;
 }
 
 
