@@ -277,8 +277,10 @@ font-size:var(--p-text);
 .cart{
     position:fixed;
     height:100%;
-    width:50vw;
-    background:white;
+    max-width:50rem;
+    background:var(--bg-3);
+    z-index:200;
+    border-radius:1rem;
 }
 
 
