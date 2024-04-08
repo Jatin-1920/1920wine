@@ -190,7 +190,7 @@ productList2.innerHTML = html2
 // Add To Cart //
 
    
-/*let essenceItem= []*/
+let essenceItem= []
 const store =  document.querySelector('.cartItem')
 
 const addToCart =  document.querySelectorAll('.addbutton')
@@ -222,9 +222,9 @@ return
    
 }
 
-
+*/
 function updating(item) {
-  let selectedItem = essenceItem.find(x=>x.class===item.class)
+  let selectedItem = essenceItem.find(x=>x.classes===item.classes)
    if(selectedItem) {
       essenceItem.count += 1
       essenceItem.price = essenceItem.count * essenceItem.countPrice
@@ -233,7 +233,7 @@ function updating(item) {
    }
    
 }
-*/
+
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
    const oldprice = current.children[1].innerText
@@ -251,7 +251,7 @@ price,
    classes,
 }
 
-
+updating(item)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
