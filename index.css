@@ -302,7 +302,8 @@ font-size:var(--p-text);
 }
 .cartItem{
     height:100%;
-    display:grid;
+    display:flex;
+    flex-direction:column;
     width:100%;
     oveflow-y:scroll;
     overflow-x: clip;
@@ -325,6 +326,7 @@ font-size:var(--p-text);
 }
 .Cart-col img{
     max-width:100%;
+    aspect-ratio:3/4;
 }
 .cartTotalCol{
     display:flex;
