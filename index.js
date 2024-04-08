@@ -241,12 +241,14 @@ const current = e.currentTarget.parentElement
    const price = parseFloat(strprice[0])
    const image = current.children[0]
    const img = image.src
+   const class = current.id
 let item = {
 price,
     img,
  id : Date.now(),
     count:1,
     countPrice : price,
+   class,
 }
 
 
