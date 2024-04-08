@@ -112,13 +112,12 @@ const clip2 = document.querySelector(".clip2")
 
    
 let essenceItem= []
-/*const store =  document.querySelector('.storeItem')
-const noItem = document.querySelector('.no-item')*/
-const addToCart =  document.querySelectorAll('.addbutton')
-/*const productJt = document.querySelector('.product-js')
+const store =  document.querySelector('.cart')
 
-const sumPrice = document.querySelector('.sum-text')
-*/
+const addToCart =  document.querySelectorAll('.addbutton')
+
+
+const sumPrice = document.querySelector('.cartTotal')
 
 
 function countSumPrice(){
@@ -141,7 +140,7 @@ return
     }
    
     essenceItem.push(item)
-    productJt.classList.add('add-toggle')
+   
 }
 
 
