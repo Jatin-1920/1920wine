@@ -210,7 +210,7 @@ const sumPrice = document.querySelector('.cartTotal')
 
 function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
-        if(essenceItem[i].class=== item.class){
+        if(essenceItem[i].classes=== item.classes){
 essenceItem[i].count += 1
 essenceItem[i].price = essenceItem[i].countPrice * essenceItem[i].count
 return
