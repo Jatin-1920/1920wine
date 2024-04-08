@@ -208,7 +208,7 @@ const sumPrice = document.querySelector('.cartTotal')
 }
 */
 
-function updateCartItem(item) {
+/*function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
         if(essenceItem[i].class=== item.class){
 essenceItem[i].count += 1
@@ -222,9 +222,9 @@ return
    
 }
 
-
-/*function updating(item) {
-  let selectedItem = essenceItem.find(x=>x.classes===item.classes)
+*/
+function updating(item) {
+  let selectedItem = essenceItem.find(x=>x.class===item.class)
    if(selectedItem) {
       essenceItem.count += 1
       essenceItem.price = essenceItem.count * essenceItem.countPrice
@@ -233,7 +233,7 @@ return
    }
    
 }
-*/
+
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
    const oldprice = current.children[1].innerText
@@ -251,11 +251,11 @@ price,
    class:classes,
 }
 
-updateCartItem(item)
+updating(item)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
-
+console.log(essenceItem)
 
 /*function displayItem(){
     
