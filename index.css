@@ -318,7 +318,7 @@ font-size:var(--p-text);
     display:flex;
     align-items:center;
 }
-.cartCountCol{
+.cart-count-col{
     display:flex;
     align-items:center;
     gap:.5rem
