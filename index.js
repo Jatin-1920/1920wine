@@ -235,7 +235,7 @@ function updating(item) {
 }
 */
 function addToCartItem(e) {
-const current = e.currentTarget
+const current = e.currentTarget.previousSibling
 /*let item = {
 price,
     img,
