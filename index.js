@@ -249,7 +249,7 @@ price,
 }
 
 
-   console.log(current)
+   console.log(current,current.NodeList)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
