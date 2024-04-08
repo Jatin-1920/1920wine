@@ -156,7 +156,7 @@ function updating(item) {
 }
 */
 function addToCartItem(e) {
-const current = e.currentTarget
+const current = e.target
 /*let item = {
 price,
     img,
