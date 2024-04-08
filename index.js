@@ -179,7 +179,7 @@ store.dispatchEvent(new CustomEvent("itemsUpdated"))
 alert(`Your ${name} added to the cart`)
 }
 
-
+console.log(addToCartItem)
 function displayItem(){
     
 const html =  essenceItem.map(x=> 
