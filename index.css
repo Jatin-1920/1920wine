@@ -281,7 +281,10 @@ width:70%;
     background:var(--bg-3);
     z-index:200;
 }
-
+.cartToggle{
+    position:relative;
+    z-index:250;
+}
 
 .header{
     height:100vh;
