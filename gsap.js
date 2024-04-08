@@ -32,6 +32,20 @@ function switchMenu() {
 navToggle.addEventListener("click",switchMenu)
 
 
+let cartstate = false
+const cartToggle = document.querySelector(".cartToggle")
+const cartTl = gsap.timeline({paused:true})
+cartTl.from(".cart",{width:0, duration:1,ease:"power3.inOut"})
+function switchCart() {
+  cartstate = !cartstate
+  if(cartstate){
+    cartTl.play()
+  } else{
+    cartTl.reverse()
+  }
+}
+cartToggle.addEventListener("click",switchCart)
+
 const products= [
     {image:"img/wine4.png",price:100,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine4"},
   {image:"img/wine5.png",price:43,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!",id:"wine5"   },
