@@ -272,6 +272,15 @@ p{
 font-size:var(--p-text);
     text-wrap:balance;
 }
+
+
+.cart{
+    position:fixed;
+    min-height:100vh;
+    width:50vw;
+}
+
+
 .header{
     height:100vh;
     width:100%;
