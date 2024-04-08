@@ -236,16 +236,20 @@ function updating(item) {
 */
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
-/*let item = {
+   const oldprice = current.childNodes[1]
+   const price = parseFloat(oldprice)
+   const image = current.childNodes[0]
+   const img = image.src
+let item = {
 price,
     img,
  id : Date.now(),
     count:1,
     countPrice : price,
-}*/
+}
 
 
-   console.log(current)
+   console.log(item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
