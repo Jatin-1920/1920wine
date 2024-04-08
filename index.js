@@ -236,9 +236,9 @@ function updating(item) {
 */
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
-   const oldprice = current.previousElementSibling.textContent
+   const oldprice = current.NodeList[3].textContent
    const price = parseFloat(oldprice)
-   const image = oldprice.previousElementSibling
+   const image = oldprice.NodeList[1]
    const img = image
 let item = {
 price,
