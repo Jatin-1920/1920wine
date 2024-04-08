@@ -129,7 +129,7 @@ function countSumPrice(){
 }
 
 
-function updateCartItem(item) {
+/*function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
         if(essenceItem[i].class=== item.class){
 essenceItem[i].count += 1
@@ -142,7 +142,7 @@ return
     essenceItem.push(item)
    
 }
-
+*/
 
 function updating(item) {
   let selectedItem = essenceItem.find(x=>x.class===item.class)
