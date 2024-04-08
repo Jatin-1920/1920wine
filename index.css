@@ -269,7 +269,7 @@ h1{
     font-size:var(--h1-text);
 }
 p{
-font-size:var(--p-text);
+font-size:var(--p1-text);
     text-wrap:balance;
 }
 .header{
