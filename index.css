@@ -126,7 +126,7 @@ html.lenis, html.lenis body {
     --h1-font:clamp(1.75rem,2vw + 1rem,3rem);
     --bg-1:#E8EAE6;
     --bg-2: white;
-    --bg-3:#edb74d;
+    --bg-3:#EDEADE;
     --bg-4:#151515;
     --bg-5:white;
     --bg-p:#787786;
@@ -485,7 +485,7 @@ background:#3b3c36;
      transition:all .35s.ease-in-out;
  }
 .signup:hover{
-    background:#EDEADE;
+    background:var(--bg-3);
 }
 .footer-bottom{
     height:100%;
