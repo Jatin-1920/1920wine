@@ -252,10 +252,11 @@ price,
 }
 
 updating(item)
+   console.log(essenceItem)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
-console.log(essenceItem)
+
 
 /*function displayItem(){
     
