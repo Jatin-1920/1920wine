@@ -236,8 +236,9 @@ function updating(item) {
 */
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
-   const price = current.children[1].innerText
-   
+   const oldprice = current.children[1].innerText
+   const strprice = oldprice.matches(/(\d+)/)
+   const price = strprice.matches[0]
    const image = current.children[0]
    const img = image.src
 let item = {
