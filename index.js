@@ -174,7 +174,7 @@ price,
 }
 
 updating(item)
-   console.log(current,price,img)
+   console.log(item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 alert(`Your ${name} added to the cart`)
 }
