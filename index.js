@@ -220,7 +220,7 @@ function updateCartItem(item) {
 }
 
 
-/*function updating(item) {
+function updating(item) {
   let selectedItem = essenceItem.find(x=>x.class===item.class)
    if(selectedItem) {
       essenceItem.count += 1
@@ -228,9 +228,9 @@ function updateCartItem(item) {
    } else {
       essenceItem.push(item)
    }
-   
+   store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
-*/
+
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
    const oldprice = current.children[1].innerText
