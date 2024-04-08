@@ -173,7 +173,7 @@ a{
 }
 
 .topHeader{
-  position: sticky;
+  position: fixed;
   top:0;
   display:flex;
   z-index:101;
@@ -277,7 +277,7 @@ font-size:var(--p-text);
 .cart{
     position:fixed;
     height:100%;
-width:40rem;
+width:40dvw;
     background:var(--bg-3);
     z-index:200;
     display:flex;
