@@ -156,7 +156,7 @@ function updating(item) {
 }
 */
 function addToCartItem(e) {
-const current = e.target
+const current = e.currentTarget
 const oldprice = current.previousSibling.textContent
 const price = parseFloat(oldprice)
 const image = oldprice.previousSibling
