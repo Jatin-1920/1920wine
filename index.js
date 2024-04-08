@@ -209,17 +209,14 @@ const sumPrice = document.querySelector('.cartTotal')
 */
 
 function updateCartItem(item) {
-    for(let i = 0; i < essenceItem.length; i++){
-        if(essenceItem[i].class=== item.class){
-essenceItem[i].count += 1
-essenceItem[i].price = essenceItem[i].countPrice * essenceItem[i].count
-return
-        }
- 
+    for(let i =0; essenceItem.length;i++){
+       if(essenceItem[i].class ===item.class) {
+          essenceItem[i].count += 1
+          essenceItem.price = essenceItem.count * essenceItem.countPrice
+       }
+       return
     }
-   
-    essenceItem.push(item)
-   
+   essenceItem.push(item)
 }
 
 
