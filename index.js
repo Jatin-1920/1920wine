@@ -161,7 +161,7 @@ const oldprice = current.childNodes[2].textContent
 const price = parseFloat(oldprice)
 const image = current.childNodes[1]
 const img = image.src
-const classes = name;
+const classes = current.className;
 
 let item = {
     name,
