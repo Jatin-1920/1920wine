@@ -162,7 +162,6 @@ const price = parseFloat(oldprice)
 const image = oldprice.previousSibling
 const img = image.src;
 let item = {
-    name,
 price,
     img,
  id : Date.now(),
