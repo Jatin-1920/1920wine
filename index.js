@@ -208,7 +208,7 @@ const sumPrice = document.querySelector('.cartTotal')
 }
 */
 
-/*function updateCartItem(item) {
+function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
         if(essenceItem[i].class=== item.class){
 essenceItem[i].count += 1
@@ -222,7 +222,7 @@ return
    
 }
 
-*/
+
 function updating(item) {
   let selectedItem = essenceItem.find(x=>x.class===item.class)
    if(selectedItem) {
@@ -251,7 +251,7 @@ price,
    class:classes,
 }
 
-updating(item)
+updateCartItem(item)
    console.log(essenceItem)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
