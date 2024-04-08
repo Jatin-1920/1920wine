@@ -156,7 +156,7 @@ return
 }
 */
 function addToCartItem(e) {
-const current = e.currentTarget.parentElement
+const current = e.currentTarget
 const oldprice = current.childNodes[2].textContent
 const price = parseFloat(oldprice)
 const image = current.childNodes[1]
