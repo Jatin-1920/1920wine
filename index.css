@@ -282,7 +282,8 @@ font-size:var(--p-text);
     z-index:200;
     display:flex;
     flex-direction:column;
-    overflow: clip;
+        oveflow-y:auto;
+    overflow-x: clip;
 }
 .cartHead{
     display:flex;
@@ -305,10 +306,10 @@ font-size:var(--p-text);
     display:flex;
     flex-direction:column;
     width:100%;
-    oveflow-y:scroll;
-    overflow-x: clip;
+
     padding:1rem;
     gap:1rem;
+    margin-block:3rem;
 }
 .Cart-col{
     display:grid;
