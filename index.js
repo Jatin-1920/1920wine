@@ -248,7 +248,7 @@ price,
    class:classes,
 }
 
-updateCartItem(item)
+updating(item)
    console.log(essenceItem)
    console.log(current,current.childNodes,item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
