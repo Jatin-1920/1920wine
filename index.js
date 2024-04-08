@@ -112,13 +112,13 @@ const clip2 = document.querySelector(".clip2")
 
    
 let essenceItem= []
-const store =  document.querySelector('.storeItem')
-const noItem = document.querySelector('.no-item')
-const addToCart =  document.querySelectorAll('.addToCart')
-const productJt = document.querySelector('.product-js')
+/*const store =  document.querySelector('.storeItem')
+const noItem = document.querySelector('.no-item')*/
+const addToCart =  document.querySelectorAll('.addbutton')
+/*const productJt = document.querySelector('.product-js')
 
 const sumPrice = document.querySelector('.sum-text')
-
+*/
 
 
 function countSumPrice(){
@@ -130,7 +130,7 @@ function countSumPrice(){
 }
 
 
-/* function updateCartItem(item) {
+function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
         if(essenceItem[i].class=== item.class){
 essenceItem[i].count += 1
@@ -175,6 +175,7 @@ price,
 }
 
 updating(item)
+   console.log(current,price,img)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 alert(`Your ${name} added to the cart`)
 }
@@ -280,5 +281,5 @@ store.addEventListener("click",(e)=>{
 
 
 getLocale()    
-*/
+
    
