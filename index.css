@@ -176,7 +176,7 @@ a{
   position: fixed;
   top:0;
   display:flex;
-  z-index:101;
+  z-index:201;
   width:100%;
   padding:1.5rem 2rem;
   font-size:var(--l-text);
@@ -286,17 +286,19 @@ font-size:var(--p-text);
 }
 .cartHead{
     flex:1;
-    padding:1rem;
     display:flex;
     align-items:center;
     justify-content:end;
     text-align:center;
+    border-bottom:1px solid black;
 }
 .cartHead h1,.cartTotalCol .h1{
     font-size:var(--h2-text);
 }
 .cartHead h1{
     width:50%;
+    height:100%;
+    padding:.5rem;
     border-left:1px solid black;
 }
 .cartItem{
@@ -334,10 +336,7 @@ font-size:var(--p-text);
     
     border-left:1px solid black;
 }
-.cartToggle{
-    position:fixed;
-    z-index:249;
-}
+
 
 
 .header{
