@@ -199,16 +199,16 @@ const addToCart =  document.querySelectorAll('.addbutton')
 const sumPrice = document.querySelector('.cartTotal')
 
 
-/*function countSumPrice(){
+function countSumPrice(){
     let  sumPrice = 0
     essenceItem.forEach(item=>{
        sumPrice += item.price
     })
     return sumPrice
 }
-*/
 
-function updateCartItem(item) {
+
+function updating(item) {
     for(let i =0; essenceItem.length;i++){
        if(essenceItem[i].class ===item.class) {
           essenceItem[i].count += 1
@@ -220,16 +220,7 @@ function updateCartItem(item) {
 }
 
 
-function updating(item) {
-  let selectedItem = essenceItem.find(x=>x.class===item.class)
-   if(selectedItem) {
-      essenceItem.count += 1
-      essenceItem.price = essenceItem.count * essenceItem.countPrice
-   } else {
-      essenceItem.push(item)
-   }
-   store.dispatchEvent(new CustomEvent("itemsUpdated"))
-}
+
 
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
@@ -255,7 +246,7 @@ store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
 
-/*function displayItem(){
+function displayItem(){
     
 const html =  essenceItem.map(x=> 
 `
@@ -340,10 +331,10 @@ if(search.count === 0) {
 }
 store.dispatchEvent(new CustomEvent("itemsUpdated"));
 }
-*/
+
 
 addToCart.forEach(btn=>btn.addEventListener('click',addToCartItem))
-/*store.addEventListener("itemsUpdated",displayItem)
+store.addEventListener("itemsUpdated",displayItem)
 store.addEventListener("itemsUpdated",eventLocalStorage)
 store.addEventListener("click",(e)=>{
     const id = parseInt(e.target.id)
@@ -355,5 +346,5 @@ store.addEventListener("click",(e)=>{
 
 
 getLocale()    
-*/
+
    
