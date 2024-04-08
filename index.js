@@ -112,7 +112,7 @@ const clip2 = document.querySelector(".clip2")
 
    
 let essenceItem= []
-const store =  document.querySelector('.cart')
+const store =  document.querySelector('.cartItem')
 
 const addToCart =  document.querySelectorAll('.addbutton')
 
