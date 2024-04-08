@@ -129,7 +129,7 @@ function countSumPrice(){
 }
 
 
-/*function updateCartItem(item) {
+function updateCartItem(item) {
     for(let i = 0; i < essenceItem.length; i++){
         if(essenceItem[i].class=== item.class){
 essenceItem[i].count += 1
@@ -142,9 +142,9 @@ return
     essenceItem.push(item)
    
 }
-*/
 
-function updating(item) {
+
+/*function updating(item) {
   let selectedItem = essenceItem.find(x=>x.class===item.class)
    if(selectedItem) {
       essenceItem.count += 1
@@ -154,7 +154,7 @@ function updating(item) {
    }
    
 }
-
+*/
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
 const oldprice = current.childNodes[2].textContent
@@ -173,7 +173,7 @@ price,
     countPrice : price,
 }
 
-updating(item)
+updateCartItem(item)
    console.log(item)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 alert(`Your ${name} added to the cart`)
