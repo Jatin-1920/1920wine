@@ -278,16 +278,4 @@ store.addEventListener("click",(e)=>{
 
 getLocale()    
 */
-   let cartstate = false
-const cartToggle = document.querySelector(".cartToggle")
-const cartTl = gsap.timeline({paused:true})
-cartTl.from(".cart",{width:0, duration:1,ease:"power3.inOut"})
-function switchCart() {
-  cartstate = !cartstate
-  if(cartstate){
-    cartTl.play()
-  } else{
-    cartTl.reverse()
-  }
-}
-cartToggle.addEventListener("click",switchCart)
+   
