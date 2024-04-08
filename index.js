@@ -111,7 +111,7 @@ const clip2 = document.querySelector(".clip2")
 // Add To Cart //
 
    
-let essenceItem= []
+/*let essenceItem= []*/
 const store =  document.querySelector('.cartItem')
 
 const addToCart =  document.querySelectorAll('.addbutton')
@@ -157,26 +157,20 @@ function updating(item) {
 */
 function addToCartItem(e) {
 const current = e.currentTarget
-const oldprice = current.previousSibling.textContent
-const price = parseFloat(oldprice)
-const image = oldprice.previousSibling
-const img = image.src;
-let item = {
+/*let item = {
 price,
     img,
  id : Date.now(),
     count:1,
     countPrice : price,
-}
+}*/
 
-essenceItem.push(item)
-   console.log(item)
-   store.innerHTML = item
+
+   console.log(current)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
-alert(`Your ${name} added to the cart`)
 }
 
-console.log(essenceItem)
+
 /*function displayItem(){
     
 const html =  essenceItem.map(x=> 
