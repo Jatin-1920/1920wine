@@ -562,7 +562,7 @@ margin-inline:6rem;
 }
 .footer-nav {
     display: grid;
-    font-size:var(--p1-text);
+    font-size:var(--p-text);
     font-weight:bold;
     padding-inline:1rem;
     grid-template-columns:.65fr .35fr;
