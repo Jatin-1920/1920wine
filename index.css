@@ -277,7 +277,7 @@ font-size:var(--p-text);
 .cart{
     position:fixed;
     height:100%;
-  width:40dvw;
+  width:100dvw;
     background:var(--bg-3);
     z-index:200;
     display:flex;
@@ -335,8 +335,8 @@ font-size:var(--p-text);
     border-left:1px solid black;
 }
 .cartToggle{
-    position:relative;
-    z-index:250;
+    position:fixed;
+    z-index:249;
 }
 
 
