@@ -3,9 +3,10 @@
 gsap.registerPlugin(ScrollTrigger)
 
 const navToggle = document.querySelector(".menuToggle")
+const cartToggle = document.querySelector(".cartToggle")
 
 const navTl = gsap.timeline({paused:true})
-
+const cartTl = gsap.timeline({paused:true})
 navTl.to(".nav",{height:"100dvh",ease:"power2.inOut",
                  duration:.85}).from(".topNavLine",{scaleY:0,transformOrigin:"0% 0%" ,duration:1,
               ease:"power2.inOut"},0.2).from(".bottomNavLine",{scaleX:0,transformOrigin:"0% 0%" ,duration:1,
@@ -14,8 +15,10 @@ navTl.to(".nav",{height:"100dvh",ease:"power2.inOut",
   opacity:0,y:-50,duration:.7,stagger:.1,ease:"power2.inOut"
             },0.4)
 
-let state = false
 
+cartTl.from(".cart",{width:0, duration:1,ease:"power3.inOut"})
+let state = false
+let cartstate = false
 function switchMenu() {
   state = !state
   if(state){
@@ -25,8 +28,17 @@ function switchMenu() {
   }
 }
 
-navToggle.addEventListener("click",switchMenu)
 
+function switchCart() {
+  cartstate = !cartstate
+  if(cartstate){
+    cartTl.play()
+  } else{
+    cartTl.reverse()
+  }
+}
+navToggle.addEventListener("click",switchMenu)
+cartToggle.addEventListener("click",switchCart)
 
 const products= [
     {image:"img/wine4.png",price:100,desc:"A semi-dry red wine with soft character and light and fruity aromas is broadly appealing and reveals the uniqueness of the Missouri St. Vincent grape.  Save 20% when you purchase $200 or more!", id:"wine4"},
