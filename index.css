@@ -284,6 +284,7 @@ font-size:var(--p-text);
     flex-direction:column;
         oveflow-y:auto;
     overflow-x: clip;
+    justift-content:space-between;
 }
 .cartHead{
     display:flex;
