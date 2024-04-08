@@ -282,9 +282,8 @@ font-size:var(--p-text);
     z-index:200;
     display:flex;
     flex-direction:column;
-        oveflow-y:auto;
-    overflow-x: clip;
-    justift-content:space-between;
+        oveflow:auto;
+    justify-content:space-between;
 }
 .cartHead{
     display:flex;
