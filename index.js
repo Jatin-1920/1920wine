@@ -238,7 +238,7 @@ price,
 }
 
 updating(item)
-   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
+   
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
@@ -262,8 +262,9 @@ const html =  essenceItem.map(x=>
   
       `
 ).join('')
+   
 store.innerHTML = html
-  
+  sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
   }
   
 
