@@ -14,7 +14,7 @@
 margin-inline:3rem;
 }
   .contactPage{
-    flex-direction:column;
+    grid-template-rows:repeat(3,1fr);
   }
 .topContact{
   transfrom:translateX(40%);
