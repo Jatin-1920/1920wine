@@ -16,11 +16,14 @@ margin-inline:3rem;
   .contactPage{
     display:flex;
     flex-direction:column;
+    
+  }
+  .topContact{
     justify-content:center;
     padding:0;
   }
 .topContact h1{
-  transfrom:translateY(70%) translateX(0);
+  transfrom:translateX(0) translateY(70%);
   
   font-size:18vw;
   
