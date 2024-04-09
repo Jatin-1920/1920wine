@@ -661,9 +661,7 @@ margin-inline:6rem;
     display:grid;
     grid-template-columns:repeat(3,1fr);
 }
-.contactPage>*{
-    flex:1;
-}
+
 .contactImg{
   background:url(img/contact.jpg);
   background-size:cover;
