@@ -308,7 +308,7 @@ font-size:var(--p-text);
 
 }
 .cartToggle i{
-    font-size:1.25rem;
+    font-size:1.5rem;
 }
 .cartLength{
     position: absolute;
@@ -317,7 +317,7 @@ font-size:var(--p-text);
     font-weight:bond;
     font-size:var(--p1-text);
     font-family:j2;
-    color:palegreen;
+    color: #FFC700;
 }
 
 .cart{
