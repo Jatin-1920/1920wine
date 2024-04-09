@@ -527,18 +527,28 @@ font-size:var(--p-text);
   padding:0rem 1rem;
 }
 
-.wineShow{
-    background:var(--bg-1);
-    min-height:100vh;
-    width:100%;
-    position:relative;
-    z-index:2;
-    padding:2rem;
-    display:grid;
-    place-items:center;
+.product-block{
+  margin-block:3rem;
+  padding:1rem;
+  display:grid;
+  gap:1rem;
+  position:relative;
+  place-items:center;
+  z-index:2;
+  background:var(--bg-1);
+  grid-template-columns:repeat(3,1fr);
 }
 
-.wineShow a {
+.productItem img{
+max-width:10rem;
+  aspect-ratio:3/4;
+  
+}
+.price{
+  margin-block:1rem;
+}
+
+.product-container a {
     font-size:var(--l-text);
     display:flex;
     margin-top:3rem;
