@@ -218,8 +218,6 @@ function updating(item) {
 }
 
 
-
-gsap.set(".dialog",{yPercent:-200})
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
    const oldprice = current.children[1].innerText
@@ -265,18 +263,7 @@ const html =  essenceItem.map(x=>
    
 store.innerHTML = html
   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
-   gsap.to(".dialog",{
-    yPercent:0,
-    ease:"power3.inOut",
-    duration:1
- })  
-   setTimeout(()=>{
-      gsap.to(".dialog",{
-    yPercent:-200,
-    ease:"power3.inOut",
-    duration:1
- })  
-   },2000)
+   alert("Do you want add this item to cart")
   }
   
 
