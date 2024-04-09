@@ -282,7 +282,7 @@ font-size:var(--p-text);
     z-index:200;
     display:grid;
     grid-template-rows:auto 1fr;
-        
+        overflow:clip;
 }
 .cartHead{
     display: flex;
