@@ -206,13 +206,25 @@ a{
   position: fixed;
   top:0;
   display:flex;
-  z-index:201;
+  
   width:100%;
   padding:1.5rem 2rem;
   font-size:var(--l-text);
   align-items:center;
   font-family:thunder;
   justify-content:space-between;
+}
+.topHeader a{
+    position:relative;
+    z-index:101;
+}
+.menuToggle{
+    position:relative;
+    z-index:101;
+}
+.cartToggle{
+    position:relative;
+    z-index:201;
 }
 .nav{
   position:fixed;
