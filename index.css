@@ -181,10 +181,10 @@ a{
     z-index:300;
     background:var(--bg-3);
     font-size:var(--p1-text);
-    min-width:10rem;
-    min-height:10rem;
+    min-width:15rem;
+    min-height:13rem;
     left:50%;
-    transform:translateX(-50%);
+    transform:translateX(-50%) translateY(-200%);
 }
 .topHeader{
   position: fixed;
