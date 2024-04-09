@@ -19,4 +19,11 @@
   .product-block{
     grid-template-columns:repeat(2,1fr);
   }
+  .h-scroll1 img{
+   height:30vh;
+   width:60vw;
+  }
+  .h-scroll3{
+    width:80vw;
+  }
 }
