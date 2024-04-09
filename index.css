@@ -182,9 +182,8 @@ a{
     background:var(--bg-3);
     font-size:var(--p1-text);
     min-width:15rem;
-    min-height:13rem;
+    min-height:15rem;
     left:50%;
-    opacity:0;
     transform:translateX(-50%);
 }
 .topHeader{
