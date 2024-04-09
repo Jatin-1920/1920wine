@@ -317,7 +317,7 @@ font-size:var(--p-text);
     font-weight:bold;
     font-size:var(--p1-text);
     font-family:j2;
-    color: red;
+    color:tomato;
 }
 
 .cart{
