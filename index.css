@@ -206,12 +206,12 @@ a{
   position: fixed;
   top:0;
   display:flex;
-  
   width:100%;
   padding:1.5rem 2rem;
   font-size:var(--l-text);
   align-items:center;
   font-family:thunder;
+    z-index:10;
   justify-content:space-between;
 }
 .topHeader a{
