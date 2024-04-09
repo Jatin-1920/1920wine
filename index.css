@@ -297,10 +297,10 @@ font-size:var(--p-text);
 .cartHead h1,.cartTotalCol h1{
     font-size:var(--h2-text);
     padding:.5rem;
-    width:50%;
+    
 }
 .cartHead h1{
-    
+    width:50%;
     height:100%;
     border-left:1px solid black;
 }
@@ -344,6 +344,9 @@ font-size:var(--p-text);
     display: flex;
     align-items:center;
     border-top:1px solid black;
+}
+.cartTotalCol>*{
+    flex:1;
 }
 .cartTotalCol h1{
     display: grid;
