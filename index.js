@@ -238,7 +238,18 @@ price,
 }
 
 updating(item)
-   
+   gsap.from(".dialog",{
+    yPercent:-200,
+    ease:"power3.inOut",
+    duration:1
+ })  
+   setTimeout(()=>{
+      gsap.to(".dialog",{
+    yPercent:-200,
+    ease:"power3.inOut",
+    duration:1
+ })  
+   },2000)
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
