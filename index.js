@@ -238,6 +238,19 @@ price,
 updating(item)
    
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
+   gsap.to(".dialog",{
+    yPercent:0,
+    ease:"power3.inOut",
+    duration:1,
+      opacity:1,
+ })  
+   setTimeout(()=>{
+      gsap.to(".dialog",{
+    yPercent:-200,
+    ease:"power3.inOut",
+    duration:1
+ })  
+   },2000)
 }
 
 
@@ -263,7 +276,6 @@ const html =  essenceItem.map(x=>
    
 store.innerHTML = html
   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
-   alert("Do you want add this item to cart")
   }
   
 
