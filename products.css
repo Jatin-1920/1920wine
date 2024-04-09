@@ -43,7 +43,7 @@
 .productItem img{
 max-width:10rem;
   aspect-ratio:3/4;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
 }
 .price{
   margin-block:1rem;
