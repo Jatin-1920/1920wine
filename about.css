@@ -60,7 +60,7 @@
 }
 .h-scroll1 img{
    height:30vh;
-   width:60vw;
+   width:30vw;
 }
 .h-scroll h1{
    font-size:10rem;
@@ -86,7 +86,7 @@
    background-size:cover;
     background-repeat:no-repeat;
    position:relative;
-   width:80vw;
+   width:50vw;
    height:50vh;
     background-position:center center;
 }
