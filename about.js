@@ -23,3 +23,20 @@ ScrollTrigger.create({
 })
 
 
+const thrlaxabout = gsap.timeline({
+    scrollTrigger: {
+        trigger:".about-trigger",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      
+     }
+})
+       thrlaxabout.to(".thrlax3",{
+          y:-155,
+          ease:"none"
+       }).to(".thrlax4",{
+          y:-250,
+          ease:"none"
+       },0)
+
