@@ -292,7 +292,7 @@ font-size:var(--p-text);
     text-align:center;
     position:sticky;
     top:0;
-    background:var(--bg-3);
+    background:var(--bg-1);
     border-bottom:1px solid black;
 }
 .cartHead h1,.cartTotalCol h1{
@@ -344,7 +344,7 @@ font-size:var(--p-text);
 .cartTotalCol{
     display: flex;
     align-items:center;
-    background:var(--bg-3);
+    background:var(--bg-1);
     border-top:1px solid black;
 }
 .cartTotalCol h1{
