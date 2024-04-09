@@ -353,13 +353,15 @@ font-size:var(--p-text);
     border-left:1px solid black;
     height:100%;
     font-weight:bold;
-    text-align:center;
+    display:grid;
+    place-items:center;
     font-size:var(--p1-text);
 }
 
 .minus,.plus{
     background:none;
     font-size:var(--p1-text);
+    font-weight:bold;
     border:none;
     outline:none;
 }
