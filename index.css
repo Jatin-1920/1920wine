@@ -312,7 +312,8 @@ font-size:var(--p-text);
     top:-1rem;
     right:0;
     font-weight:bond;
-    font-size:var(--p-text);
+    font-size:var(--p1-text);
+    font-family:j2;
 }
 
 .cart{
