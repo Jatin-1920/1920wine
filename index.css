@@ -353,8 +353,7 @@ font-size:var(--p-text);
     border-left:1px solid black;
     height:100%;
     font-weight:bold;
-    display: grid;
-    place-items:center;
+    text-align:center;
     font-size:var(--p1-text);
 }
 
