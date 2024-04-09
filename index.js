@@ -49,32 +49,28 @@ prlxSection.forEach(e=>{
   })
 })
 
-const trigger = document.querySelectorAll(".trigger")
-trigger.forEach(e=>{
-const thrlaxP = e.querySelector(".thrlax")
-   const thrlax1 = thrlaxP.querySelector(".thrlax1")
-const thrlax2 = thrlaxP.querySelector(".thrlax2")
+const trigger = document.querySelector(".trigger")
+
    
 const thrlax = gsap.timeline({
     scrollTrigger: {
-        trigger:e,
+        trigger:trigger,
         start: "top bottom",
         end: "bottom top",
         scrub: true,
       
      }
 })
-       thrlax.to(thrlax1,{
+       thrlax.to(".thrlax1",{
           y:-155,
           ease:"none"
-       }).to(thrlax2,{
+       }).to(".thrlax2",{
           y:-250,
           ease:"none"
        },0)
 
 
-   
-})
+
 
 
 let currentScroll = 0
