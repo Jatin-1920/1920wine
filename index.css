@@ -282,7 +282,7 @@ font-size:var(--p-text);
     z-index:200;
     display:grid;
     grid-template-rows:auto 1fr;
-        overflow:clip;
+        overflow:auto;
 }
 .cartHead{
     display: flex;
@@ -306,7 +306,7 @@ font-size:var(--p-text);
 .cartContainer{
     display:grid;
     height:100%;
-    oveflow:auto;
+    overflow:auto;
     grid-template-rows:1fr auto;
 }
 .cartItem{
@@ -315,7 +315,7 @@ font-size:var(--p-text);
     width:100%;
     padding:1rem;
     gap:1rem;
-    oveflow-y:scroll;
+    overflow-y:scroll;
     margin-block:3rem;
 }
 .Cart-col{
