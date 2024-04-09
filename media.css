@@ -26,6 +26,12 @@ margin-inline:3rem;
   .bottomContact{
     justify-content:start;
   }
+
+.contactPage>*{
+    flex:1;
+}
+
+  
   .productHeader{
     flex-direction:column;
   }
