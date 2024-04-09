@@ -282,7 +282,7 @@ font-size:var(--p-text);
     z-index:200;
     display:grid;
     grid-template-rows:auto 1fr;
-        overflow:auto;
+        overflow-x:clip;
 }
 .cartHead{
     display: flex;
@@ -306,26 +306,28 @@ font-size:var(--p-text);
 .cartContainer{
     display:grid;
     height:100%;
-    overflow:auto;
     grid-template-rows:1fr auto;
 }
 .cartItem{
     display:flex;
     flex-direction:column;
     width:100%;
-    padding:1rem;
+    padding-inline:1rem;
     gap:1rem;
     overflow-y:scroll;
-    margin-block:3rem;
+    padding-block:3rem;
 }
 .Cart-col{
     display:grid;
     grid-template-columns:.3fr .2fr .5fr;
     gap:1rem;
+    place-items:center;
+    border-bottom:1px solid black;
 }
 .cartPriceCol{
-    display:flex;
-    align-items:center;
+    display:grid;
+    place-items:center;
+    gap:1rem;
 }
 .cart-count-col{
     display:flex;
