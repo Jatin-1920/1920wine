@@ -645,6 +645,7 @@ margin-inline:6rem;
     font-size:var(--p-text);
     font-weight:bold;
     padding-inline:1rem;
+    padding-bottom:2rem;
     grid-template-columns:.65fr .35fr;
 }
 .footerNavBlock{
