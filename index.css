@@ -314,10 +314,10 @@ font-size:var(--p-text);
     position: absolute;
     top:-1rem;
     right:0;
-    font-weight:bond;
+    font-weight:bold;
     font-size:var(--p1-text);
     font-family:j2;
-    color: #FFC700;
+    color: #124076;
 }
 
 .cart{
