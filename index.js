@@ -196,7 +196,7 @@ const store =  document.querySelector('.cartItem')
 const addToCart =  document.querySelectorAll('.addbutton')
 const sumPrice = document.querySelector('.cartTotal')
 const itemid = document.querySelector('.itemid')
-
+const cartLength = document.querySelector('.cartLength')
 function countSumPrice(){
     let  sumPrice = 0
     essenceItem.forEach(item=>{
@@ -282,6 +282,7 @@ const html =  essenceItem.map(x=>
 ).join('')
    
 store.innerHTML = html
+   cartLength.innerHTML = essenceItem.length
   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
   }
   
