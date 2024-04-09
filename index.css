@@ -303,7 +303,16 @@ p{
 font-size:var(--p-text);
     text-wrap:balance;
 }
+.cartToggle{
+    position:relative;
 
+}
+.cartLength{
+    position: absolute;
+    top:-1rem;
+    right:0;
+    font-family:thunder;
+}
 
 .cart{
     position:fixed;
