@@ -342,13 +342,19 @@ font-size:var(--p-text);
 .cartTotalCol{
     display: flex;
     align-items:center;
-    text-align:center;
+}
+.cartTotalCol h1{
+    display: grid;
+    place-items:center;
 }
 .cartTotal{
     border-left:1px solid black;
 }
 
-
+.minus,.plus{
+    background:none;
+    font-size:var(--p1-text);
+}
 
 .header{
     height:100vh;
