@@ -484,7 +484,7 @@ font-size:var(--p-text);
     
 }
 
-.thrlax{
+.thrlax,.aboutThrlax{
   height:50vh;
   width:50vh;
   position:relative;
@@ -493,18 +493,18 @@ font-size:var(--p-text);
   background-position: center center;
   
 }
-.thrlax img{
+.thrlax img,.aboutThrlax{
   position: absolute;
   object-fit:cover;
 }
-.thrlax1{
+.thrlax1,.thrlax3{
   width:60%;
   height:70%;
   left:-30%;
   top:50%;
 }
 
-  .thrlax2{
+  .thrlax2,.thrlax4{
   width:40%;
   height:55%;
   right:-30%;
