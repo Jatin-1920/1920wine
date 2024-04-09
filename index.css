@@ -307,6 +307,9 @@ font-size:var(--p-text);
     position:relative;
 
 }
+.cartToggle i{
+    font-size:2rem;
+}
 .cartLength{
     position: absolute;
     top:-1rem;
@@ -314,6 +317,7 @@ font-size:var(--p-text);
     font-weight:bond;
     font-size:var(--p1-text);
     font-family:j2;
+    color:blue;
 }
 
 .cart{
