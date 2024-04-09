@@ -535,15 +535,9 @@ font-size:var(--p-text);
     z-index:2;
     padding:2rem;
     display:grid;
-    gap:5rem;
     place-items:center;
-    grid-template-columns:repeat(2,1fr)
 }
-.winecase{
-    display:grid;
-    gap:1rem;
-    height:100%; 
-}
+
 .wineShow a {
     font-size:var(--l-text);
     display:flex;
