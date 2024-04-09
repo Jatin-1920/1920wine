@@ -394,7 +394,9 @@ font-size:var(--p-text);
     border:none;
     outline:none;
 }
-
+.fa-trash{
+    font-size:var(--p1-text);
+}
 
 .header{
     height:100vh;
