@@ -24,7 +24,7 @@ margin-inline:3rem;
   padding:0;
 }
   .bottomContact{
-    .justify-content:start;
+    justify-content:start;
   }
   .productHeader{
     flex-direction:column;
