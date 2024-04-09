@@ -219,7 +219,7 @@ function updating(item) {
 
 
 
-
+gsap.set(".dialog",{yPercent:-200})
 function addToCartItem(e) {
 const current = e.currentTarget.parentElement
    const oldprice = current.children[1].innerText
