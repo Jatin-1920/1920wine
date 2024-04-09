@@ -644,7 +644,7 @@ margin-inline:6rem;
     display: grid;
     font-size:var(--p-text);
     font-weight:bold;
-    padding-inline:1rem;
+    padding-inline:3rem;
     padding-bottom:2rem;
     grid-template-columns:.65fr .35fr;
 }
