@@ -349,12 +349,14 @@ font-size:var(--p-text);
 }
 .cartTotal{
     border-left:1px solid black;
+    height:100%;
 }
 
 .minus,.plus{
     background:none;
     font-size:var(--p1-text);
 }
+
 
 .header{
     height:100vh;
