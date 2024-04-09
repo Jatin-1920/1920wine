@@ -184,6 +184,7 @@ a{
     min-width:15rem;
     min-height:13rem;
     left:50%;
+    opacity:0;
     transform:translateX(-50%);
 }
 .topHeader{
