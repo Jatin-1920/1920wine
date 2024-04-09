@@ -185,6 +185,7 @@ a{
     min-height:15rem;
     left:50%;
     transform:translateX(-50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .topHeader{
   position: fixed;
