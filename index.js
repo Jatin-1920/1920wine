@@ -245,9 +245,7 @@ store.dispatchEvent(new CustomEvent("itemsUpdated"))
     ease:"power3.inOut",
     duration:1,
  }) 
-   gsap.set(".dialog",{
-      opacity:1,
-   })
+   
    setTimeout(()=>{
       gsap.to(".dialog",{
     yPercent:-200,
