@@ -209,7 +209,7 @@ function countSumPrice(){
 
 
 function updating(item) {
-    for(let i =0; essenceItem.length;i++){
+    for(let i =0; i < essenceItem.length;i++){
        if(essenceItem[i].class ===item.class) {
           essenceItem[i].count += 1
          essenceItem.price = essenceItem.count * essenceItem.countPrice
