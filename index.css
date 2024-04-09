@@ -290,6 +290,8 @@ font-size:var(--p-text);
     align-items:center;
     justify-content:end;
     text-align:center;
+    position:sticky;
+    top:0;
     border-bottom:1px solid black;
 }
 .cartHead h1,.cartTotalCol .h1{
@@ -313,6 +315,7 @@ font-size:var(--p-text);
     width:100%;
     padding:1rem;
     gap:1rem;
+    oveflow-y:scroll;
     margin-block:3rem;
 }
 .Cart-col{
