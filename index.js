@@ -265,8 +265,8 @@ const html =  essenceItem.map(x=>
    
 store.innerHTML = html
   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
-   gsap.from(".dialog",{
-    yPercent:-200,
+   gsap.to(".dialog",{
+    yPercent:0,
     ease:"power3.inOut",
     duration:1
  })  
