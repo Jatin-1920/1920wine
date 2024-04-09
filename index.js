@@ -212,9 +212,10 @@ function updating(item) {
     for(let i =0; essenceItem.length;i++){
        if(essenceItem[i].class ===item.class) {
           essenceItem[i].count += 1
-          essenceItem.price = essenceItem.count * essenceItem.countPrice
+         essenceItem.price = essenceItem.count * essenceItem.countPrice
+          return
        }
-       return
+       
     }
    essenceItem.push(item)
 }
