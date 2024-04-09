@@ -198,7 +198,10 @@ a{
     height:40px;
     aspect-ratio:3/4;
 }
-
+.itemD p{
+    display:flex;
+    margin-left:auto;
+}
 
 
 
