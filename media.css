@@ -23,7 +23,7 @@ margin-inline:3rem;
     justify-content:center;
   }
 .topContact h1{
-  transform:translateX(0%) translateY(70%);
+  transform:translateX(0%) translateY(40%);
   font-size:18vw;
 }
   .bottomContact{
