@@ -14,14 +14,18 @@
 margin-inline:3rem;
 }
   .contactPage{
+    display:flex;
     flex-direction:column;
   }
 .topContact h1{
-  transfrom:translateX(40%);
-  align-items:center;
+  transfrom:translateY(70%);
+  justify-content:center;
   font-size:18vw;
   padding:0;
 }
+  .bottomContact{
+    .justify-content:start;
+  }
   .productHeader{
     flex-direction:column;
   }
