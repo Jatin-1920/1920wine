@@ -172,11 +172,12 @@ a{
     color:black;
 }
 .dialog{
-    padding:2rem;
+    padding:1rem;
     border-radius:1rem;
     margin-top:4rem;
     display:grid;
     place-items:center;
+    gap:2rem;
     position: fixed;
     z-index:300;
     background:var(--bg-3);
@@ -186,6 +187,16 @@ a{
     left:50%;
     transform:translateX(-50%);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.itemD {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1rem;
+}
+.itemdD img{
+    width:40px;
+    height:40px;
+    aspect-ratio:3/4;
 }
 .topHeader{
   position: fixed;
