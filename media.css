@@ -18,7 +18,7 @@ margin-inline:3rem;
   }
 .topContact h1{
   transfrom:translateX(40%);
-  justify-content:center;
+  align-items:center;
   font-size:18vw;
   padding:0;
 }
