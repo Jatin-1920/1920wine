@@ -113,4 +113,9 @@ left:50%;
    display:flex;
    margin-block:auto;
 }
-
+.aboutThrlax{
+      background:url(img/about.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
