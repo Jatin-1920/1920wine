@@ -242,7 +242,7 @@ updating(item)
    <div class="itemD">
    <img src=${img}/>
    <p>${classes}</p>
-   <p>${price}</p>
+   <p>$ ${price}</p>
    </div>`
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
    gsap.to(".dialog",{
