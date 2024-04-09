@@ -239,8 +239,9 @@ price,
 updating(item)
    itemid.innerHTML = `
    <div class="itemD">
-   <img src=${img}/>
+   
    <p>${classes}</p>
+   <img src=${img}/>
    <p>$ ${price}</p>
    </div>`
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
