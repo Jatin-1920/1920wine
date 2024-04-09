@@ -192,10 +192,7 @@ productList2.innerHTML = html2
    
 let essenceItem= []
 const store =  document.querySelector('.cartItem')
-
 const addToCart =  document.querySelectorAll('.addbutton')
-
-
 const sumPrice = document.querySelector('.cartTotal')
 
 
@@ -241,8 +238,7 @@ price,
 }
 
 updating(item)
-   console.log(essenceItem)
-   console.log(current,current.childNodes,item)
+   sumPrice.innerHTML = "$" + countSumPrice()
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
