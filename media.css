@@ -1,4 +1,22 @@
 @media (max-width:50rem) {
+
+
+.bottomNavLine{
+  height:1px;
+}
+  
+  .marquee h1{
+    font-size:25vw;
+  }
+
+.footer-bottom .header-content .marquee h1{
+
+margin-inline:3rem;
+}
+  .contactPage{
+    flex-direction:column;
+  }
+
   .productHeader{
     flex-direction:column;
   }
