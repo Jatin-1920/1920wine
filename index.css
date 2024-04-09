@@ -282,7 +282,7 @@ font-size:var(--p-text);
     z-index:200;
     display:grid;
     grid-template-rows:auto 1fr;
-        oveflow-x:clip;
+        
 }
 .cartHead{
     display: flex;
@@ -304,14 +304,13 @@ font-size:var(--p-text);
 .cartContainer{
     display:grid;
     height:100%;
+    oveflow:scroll;
     grid-template-rows:1fr auto;
 }
 .cartItem{
-    height:100%;
     display:flex;
     flex-direction:column;
     width:100%;
-
     padding:1rem;
     gap:1rem;
     margin-block:3rem;
