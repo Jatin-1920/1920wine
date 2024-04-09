@@ -182,8 +182,8 @@ a{
     z-index:300;
     background:var(--bg-3);
     font-size:var(--p1-text);
-    width:15rem;
-    height:15rem;
+    width:18rem;
+    height:18rem;
     left:50%;
     transform:translateX(-50%);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -217,7 +217,7 @@ a{
 .nav{
   position:fixed;
   inset:0;
-  height:0;
+    height:100dvh;
   width:100vw;
   z-index:99;
   background:indianred;
@@ -225,7 +225,7 @@ a{
 }
 .top-nav{
   display:flex;
-  height:100vh;
+  height:100dvh;
 }
 .top-nav>*{
   flex:1;
@@ -307,12 +307,14 @@ font-size:var(--p-text);
 .cart{
     position:fixed;
     inset:0;
+    min-height:100dvh;
   width:100dvw;
     background:var(--bg-3);
     z-index:200;
     display:grid;
     grid-template-rows:auto 1fr;
         overflow-x:clip;
+    overflow-y:scroll;
 }
 .cartHead{
     display: flex;
@@ -345,7 +347,6 @@ font-size:var(--p-text);
     width:100%;
     padding-inline:1rem;
     gap:1rem;
-    overflow-y:scroll;
     padding-block:3rem;
 }
 .Cart-col{
