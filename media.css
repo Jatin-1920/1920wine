@@ -16,7 +16,10 @@ margin-inline:3rem;
   .contactPage{
     flex-direction:column;
   }
-
+.topContact{
+  transfrom:translateX(40%);
+  justify-content:center;
+}
   .productHeader{
     flex-direction:column;
   }
