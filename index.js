@@ -25,7 +25,9 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0) 
 
 
-
+gsap.set(".dialog",{
+      Ypercent:-200
+   })
 const prlxSection = document.querySelectorAll(".prlx-section")
 
 prlxSection.forEach(e=>{
