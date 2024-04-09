@@ -35,7 +35,7 @@ navToggle.addEventListener("click",switchMenu)
 let cartstate = false
 const cartToggle = document.querySelector(".cartToggle")
 const cartTl = gsap.timeline({paused:true})
-cartTl.from(".cart",{width:0, duration:1,ease:"power3.inOut"})
+cartTl.from(".cart",{yPercent:"-110%", duration:1,ease:"power3.inOut"})
 function switchCart() {
   cartstate = !cartstate
   if(cartstate){
