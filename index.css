@@ -684,7 +684,8 @@ margin-inline:6rem;
     flex-direction:column;
     gap:1rem;
     font-size:var(--p1-text);
-    padding-block:2rem;
+    padding:2rem;
+    justify-content:end;
 }
 
 
