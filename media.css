@@ -19,14 +19,15 @@ margin-inline:3rem;
     
   }
   .topContact{
-    justify-content:center;
     padding:0;
+    position:relative;
   }
 .topContact h1{
-  transfrom:translateX(0) translateY(70%);
-  
+  transfrom:translateX(-50%) ;
+  position: absolute;
   font-size:18vw;
-  
+  left:50%;
+  bottom:9vw;
 }
   .bottomContact{
     justify-content:start;
