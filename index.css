@@ -174,14 +174,17 @@ a{
 .dialog{
     padding:2rem;
     border-radius:1rem;
+    margin-top:4rem;
     display:grid;
     place-items:center;
-    position: absolute;
+    position: fixed;
     z-index:300;
     background:var(--bg-3);
     font-size:var(--p1-text);
-    min-width:15rem;
-    min-height:15rem;
+    min-width:10rem;
+    min-height:10rem;
+    left:50%;
+    transform:translateX(-50%);
 }
 .topHeader{
   position: fixed;
