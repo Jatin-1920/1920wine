@@ -269,7 +269,7 @@ const html =  essenceItem.map(x=>
           <img src=${x.img}>
           <div class="cartPriceCol">
               <span class="cartPrice">$ ${x.price}</span>
-              <span id="deleteCart" >Remove</span>
+              <span id="deleteCart" ><i class="fa fa-trash"></i></span>
           </div>
           <div class="cart-count-col">
           <button class="minus" onclick="decrement(${x.id})">-</button>
