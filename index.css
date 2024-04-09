@@ -294,7 +294,7 @@ font-size:var(--p-text);
     top:0;
     border-bottom:1px solid black;
 }
-.cartHead h1,.cartTotalCol .h1{
+.cartHead h1,.cartTotalCol h1{
     font-size:var(--h2-text);
     padding:.5rem;
 }
