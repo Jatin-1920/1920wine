@@ -238,7 +238,7 @@ price,
 }
 
 updating(item)
-   sumPrice.innerHTML = "$" + countSumPrice()
+   sumPrice.innerHTML = "$ &nbsp" +countSumPrice()
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
 }
 
