@@ -394,10 +394,11 @@ font-size:var(--p-text);
 
 .minus,.plus{
     background:none;
-    font-size:var(--p1-text);
+    font-size:1.8rem;
     font-weight:bold;
     border:none;
     outline:none;
+    color:black;
 }
 .fa-trash{
     font-size:var(--p1-text);
