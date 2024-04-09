@@ -196,7 +196,7 @@ let essenceItem= []
 const store =  document.querySelector('.cartItem')
 const addToCart =  document.querySelectorAll('.addbutton')
 const sumPrice = document.querySelector('.cartTotal')
-
+const itemid = document.querySelector('.itemid')
 
 function countSumPrice(){
     let  sumPrice = 0
@@ -238,7 +238,12 @@ price,
 }
 
 updating(item)
-   
+   itemid.innerHTML = `
+   <div class="itemD">
+   <img src=${img}/>
+   <p>${classes}</p>
+   <p>${price}</p>
+   </div>`
 store.dispatchEvent(new CustomEvent("itemsUpdated"))
    gsap.to(".dialog",{
     yPercent:0,
