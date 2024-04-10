@@ -219,7 +219,7 @@ a{
   position:fixed;
   inset:0;
     height:0;
-  width:100vw;
+  width:55vw;
   z-index:99;
   background:indianred;
   overflow:clip;
