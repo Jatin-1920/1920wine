@@ -28,14 +28,16 @@ gsap.ticker.lagSmoothing(0)
 const animTl = gsap.timeline()
 animTl.to(".firstanim div",{
    height:0,
-   duration:.7,
+   duration:.75,
    stagger:.1,
-   ease:"expo.inOut"
+   ease:"power2.inOut"
 }).to(".secondanim div",{
    xPercent:105,
-   duration:.5,
+   duration:.75,
    stagger:.1,
-   ease:"expo.inOut"
+   ease:"power2.inOut"
+}).to(".introAnim",{
+   display:"none",
 })
 
 
