@@ -219,7 +219,7 @@ a{
   position:fixed;
   inset:0;
     height:0;
-  width:55vw;
+  width:100vw;
   z-index:99;
   background:indianred;
   overflow:clip;
@@ -324,7 +324,7 @@ font-size:var(--p-text);
     position:fixed;
     inset:0;
     min-height:100dvh;
-  width:100dvw;
+  width:55vw;
     background:var(--bg-3);
     z-index:200;
     display:grid;
