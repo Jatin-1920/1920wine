@@ -1,6 +1,8 @@
 @media (max-width:50rem) {
 
-
+.nav{
+  width:100vw;
+}
 .bottomNavLine{
   height:1px;
 }
