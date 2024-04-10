@@ -29,12 +29,12 @@ const animTl = gsap.timeline()
 animTl.to(".firstanim div",{
    height:0,
    duration:1.6,
-   stagger:.4,
+   stagger:0.4,
    ease:"expo.inOut"
 }).to(".secondanim div",{
    xPercent:105,
-   duration:.1.6,
-   stagger:.4,
+   duration:1.6,
+   stagger:0.4,
    ease:"expo.inOut"
 }).to(".introAnim",{
    display:"none",
