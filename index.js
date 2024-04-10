@@ -25,6 +25,20 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0) 
 
 
+const animTl = gsap.timeline()
+animTl.to(".firstanim div",{
+   height:0,
+   duration:.7,
+   stagger:.2,
+   ease:"power3.inOut"
+}).to(".secondanim div",{
+   width:0,
+   duration:.5,
+   stagger:.2,
+   ease:"power3.inOut"
+})
+
+
 gsap.set(".dialog",{
       yPercent:-200
    })
