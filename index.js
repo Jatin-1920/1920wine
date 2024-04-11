@@ -1,65 +1,12 @@
-gsap.registerPlugin(ScrollTrigger)
+
 
 
 
 gsap.registerPlugin(ScrollTrigger);
 
-const scroller = document.querySelector('.lerp')
-
-const locoScroll = new LocomotiveScroll({
-  el: scroller,
-  smooth: true,
-  direction: "both",
-  lerp:0.05,
-  smartphone: {
-    smooth: true,
-    direction: "both",
-  },
-  tablet: {
-    smooth: true,
-    direction: "horizontal",
-  }
-});
-
-locoScroll.on("scroll", ScrollTrigger.update);
-
-//locoScroll.on("scroll", function() {
-//  console.log( locoScroll.scroll.instance.scroll.x )
-//});
-
-ScrollTrigger.scrollerProxy(scroller, {
-//  scrollTop(value) {
-//    return arguments.length
-//      ? locoScroll.scrollTo(value, 0, 0)
-//      : locoScroll.scroll.instance.scroll.y;
-//  },
-  scrollLeft(value) {
-    return arguments.length
-      ? locoScroll.scrollTo(value, 0, 0)
-      : locoScroll.scroll.instance.scroll.x;
-  },
-  getBoundingClientRect() {
-    return {
-      left: 0,
-      top: 0,
-      width: window.innerWidth,
-      height: window.innerHeight
-    };
-  },
-  pinType: scroller.style.transform ? "transform" : "fixed"
-});
-
-ScrollTrigger.defaults({
-  scroller: scroller
-})
 
 
-
-
-
-
-
- /*  const lenis = new Lenis({
+ const lenis = new Lenis({
   duration: 1.2,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     direction: 'both',
@@ -81,7 +28,7 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0) 
-*/
+
 
 const animTl = gsap.timeline()
 animTl.to(".firstanim div",{
@@ -444,5 +391,4 @@ store.addEventListener("click",(e)=>{
 
 getLocale()    
 
-   ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-ScrollTrigger.refresh();
+   
