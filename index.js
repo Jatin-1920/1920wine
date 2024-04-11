@@ -32,7 +32,7 @@ animTl.to(".firstanim div",{
    stagger:0.1,
    ease:"expo.inOut"
 }).to(".secondanim div",{
-   xPercent:105,
+   height:0,
    duration:1,
    stagger:0.1,
    ease:"expo.inOut"
