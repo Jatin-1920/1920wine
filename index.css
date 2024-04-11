@@ -216,7 +216,7 @@ a{
 }
 .firstanim>* {
     flex:1;
-    background:black;
+    background:var(--bg-1);
 }
 .secondanim{
     position: absolute;
@@ -230,7 +230,7 @@ a{
 }
 .secondanim>* {
     flex:1;
-    background:blue;
+    background:black;
 }
 .topHeader{
   position: fixed;
