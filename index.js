@@ -9,10 +9,11 @@ const scroller = document.querySelector('.lerp')
 const locoScroll = new LocomotiveScroll({
   el: scroller,
   smooth: true,
-  direction: "horizontal",
+  direction: "both",
+  lerp:0.05,
   smartphone: {
     smooth: true,
-    direction: "horizontal",
+    direction: "both",
   },
   tablet: {
     smooth: true,
