@@ -6,9 +6,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
- const initLenis = () => {
+
   const lenis = new Lenis ({
-    lerp: 0.1,
+    lerp: 0.05,
     smoothWheel: true,
   });
 
@@ -16,7 +16,7 @@ lenis.on('scroll', ScrollTrigger.update);
 gsap.ticker.add((time) => lenis.raf(time * 1000));
 gspa.ticker.lagsSmoothing(0);
 
-};
+
 
 
 
@@ -381,4 +381,4 @@ store.addEventListener("click",(e)=>{
 
 getLocale()    
 
-   initLenis()
+   
