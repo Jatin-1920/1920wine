@@ -6,28 +6,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
- const lenis = new Lenis({
-  duration: 1.2,
-    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-    direction: 'both',
-    gestureDirection: 'both',
-    lerp: 0.05,
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    wheelMultiplier: 1,
-    infinite: false,
-    autoResize: true,
-      smoothWheel: true 
-})
-  
-lenis.on('scroll', ScrollTrigger.update)
+ const initLenis = () => {
+  const lenis = new Lenis ({
+    lerp: 0.1,
+    smoothWheel: true,
+  });
 
-gsap.ticker.add((time)=>{
-  lenis.raf(time * 1000)
-})
+lenis.on('scroll', ScrollTrigger.update);
+gsap.ticker.add((time) => lenis.raf(time * 1000));
+gspa.ticker.lagsSmoothing(0);
 
-gsap.ticker.lagSmoothing(0) 
+};
+
 
 
 const animTl = gsap.timeline()
@@ -391,4 +381,4 @@ store.addEventListener("click",(e)=>{
 
 getLocale()    
 
-   
+   initLenis()
