@@ -23,10 +23,15 @@ margin-inline:3rem;
   .topContact{
     padding:0;
     justify-content:center;
+    position:relative;
   }
 .topContact h1{
-  transform:translateX(0%) translateY(50%);
+  transform:translateX(-50%);
   font-size:18vw;
+  position: absolute;
+  bottom:-9vw;
+  left:50%;
+  
 }
   .bottomContact{
     justify-content:start;
