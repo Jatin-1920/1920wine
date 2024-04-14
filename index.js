@@ -46,7 +46,11 @@ animTl.to(".firstanim div",{
 }).to(".secondanim div",{
    height:0,
    duration:1,
-   stagger:0.1,
+   stagger:{
+       each:0.045,
+       from:"random",
+       grdi:"auto"
+   },
    ease:"expo.inOut"
 }).to(".introAnim",{
    display:"none",
