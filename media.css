@@ -26,11 +26,12 @@ margin-inline:3rem;
     position:relative;
   }
 .topContact h1{
-  transform:translateX(0%);
+  transform:translateX(50%);
   font-size:18vw;
   position: absolute;
-  bottom:-9vw;
+  bottom:-50%;
   inset:0;
+  left:50%;
 }
   .bottomContact{
     justify-content:start;
