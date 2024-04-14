@@ -31,7 +31,7 @@ margin-inline:3rem;
   position: absolute;
   bottom:-9vw;
   left:50%;
-  
+  inset:0;
 }
   .bottomContact{
     justify-content:start;
