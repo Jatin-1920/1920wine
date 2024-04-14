@@ -80,3 +80,10 @@ max-width:10rem;
   color:white;
 }
 
+.addOverlay{
+  position:fixed;
+  inset:0;
+  background:rgba(54, 69, 79,.4);
+  display:none;
+  z-index:300;
+}
