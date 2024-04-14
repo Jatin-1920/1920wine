@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const lenis = new Lenis({
-    lerp: 0.07,
-    wheelMultiplier: 0.7, // scrolling speed for mouse wheel
-  touchMultiplier: 0.7, // scrolling speed for touch events
+    lerp: 0.05,
+    wheelMultiplier: 2, // scrolling speed for mouse wheel
+  touchMultiplier: 2, // scrolling speed for touch events
   smoothWheel: true, // smooth scrolling for while events
   smoothTouch: true, 
     orientation: "both", // orientation of the scrolling (vertical/horizontal)
