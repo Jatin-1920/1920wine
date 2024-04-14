@@ -281,13 +281,22 @@ store.dispatchEvent(new CustomEvent("itemsUpdated"))
     ease:"power3.inOut",
     duration:1,
  }) 
-   
+   gsap.to(".addOverlay",{
+           display:"block",
+           ease:"power3.inOut",
+    duration:1
+       })
    setTimeout(()=>{
       gsap.to(".dialog",{
     yPercent:-200,
     ease:"power3.inOut",
     duration:1
  })  
+       gsap.to(".addOverlay",{
+           display:"none",
+           ease:"power3.inOut",
+    duration:1
+       })
    },2000)
 }
 
