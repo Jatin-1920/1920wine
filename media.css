@@ -23,9 +23,10 @@ margin-inline:3rem;
   .topContact{
     padding:0;
     justify-content:center;
+    align-items:center;
   }
 .topContact h1{
-  transform:translateX(0%) translateY(150%);
+  transform:translateX(0%);
   font-size:18vw;
 }
   .bottomContact{
