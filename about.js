@@ -40,3 +40,14 @@ const thrlaxabout = gsap.timeline({
           ease:"none"
        },0)
 
+
+const aboutPrlxTl = gsap.timeline({
+    trigger:".h-scroll3",
+    start:"left right",
+    end:"right left",
+    containerAnimation:slider,
+    id:"id"
+})
+aboutPrlxTl.to(".h-scroll3",{
+    backg
+})
