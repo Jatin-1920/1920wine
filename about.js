@@ -46,8 +46,13 @@ const aboutPrlxTl = gsap.timeline({
     start:"left right",
     end:"right left",
     containerAnimation:slider,
-    id:"id"
+    id:"id",
+    scrub: true 
 })
 aboutPrlxTl.to(".h-scroll3",{
-    backg
-})
+    backgroundPosition:"0% 50%",
+    ease:"none"
+}).to(".h-img3",{
+    xPercent:-25,
+    ease:"none"
+},0)
