@@ -83,13 +83,12 @@
 }
 .h-scroll3{
    background-image:url(img/h2.jpg);
-   background-size:150%;
+   background-size:100% 100%;
     background-repeat:no-repeat;
    position:relative;
    width:50vw;
    height:50vh;
-   overflow:clip;
-    background-position:100% 50%;
+    background-position:50% 50%;
 }
 .h-img{
    position: absolute;
