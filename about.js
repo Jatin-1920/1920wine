@@ -41,18 +41,4 @@ const thrlaxabout = gsap.timeline({
        },0)
 
 
-const aboutPrlxTl = gsap.timeline({
-    trigger:".h-scroll3",
-    start:"left right",
-    end:"right left",
-    containerAnimation:slider,
-    id:"id",
-    scrub: true 
-})
-aboutPrlxTl.to(".h-scroll3",{
-    backgroundPosition:"0% 50%",
-    ease:"none"
-}).to(".h-img3",{
-    xPercent:-25,
-    ease:"none"
-},0)
+
